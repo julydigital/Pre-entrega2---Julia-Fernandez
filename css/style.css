@@ -390,218 +390,83 @@ main {
 
 
 
-/*---------MOBILE*--------*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     header {
         flex-direction: column;
     }
 
     .navbar-brand {
-        margin-left: 10px;
-        margin-right: 10px;
+   margin-right: 0px;
+     border: 1px solid #4c19d8;
     }
 
-    .container-fluid {
-        gap: 0px;
-    }
-
-    .iconos_link {
-        display: flex;
-        flex-direction: column;
-        margin-right: 30px;
+    .navbar-toggler{
+margin: 0px;
+        border: 1px solid #d81933;
     }
 
 
     /*pagina index*/
+    .imagen-principal {
+        text-align: end;
+        border: 1px solid #4c19d8;
+    }
+
     .imagen-principal img {
         padding-top: 60px;
     }
 
     .imagen-principal h1 {
         margin-top: 0px;
-        padding-top: 20px;
+        padding-top: 60px;
     }
 
     .imagen-principal p {
-        margin-left: 20px;
-        padding-top: 20px;
-    }
-
-
-    /*pagina nosotros*/
-    .grid {
-        display: flex;
-        flex-direction: column;
-        padding-left: 0px;
-    }
-
-    .box1 h1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-right: -10px;
-        font-size: 50px;
-    }
-
-    .box2 {
-        padding: 40px 0px 30px 0px;
-    }
-
-    .box3 {
-        padding: 30px;
-    }
-
-    .box4 {
-        padding: 30px;
-    }
-
-    .box5 {
-        background: none;
-    }
-
-    /*pagina servicios*/
-    .titulo-servicios h1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 50px;
-    }
-
-    .contenedores {
-        flex-direction: column;
-        border-bottom: 100px;
-        gap: 0px;
-    }
-
-    .contenedor img {
-        align-content: center;
-        justify-content: center;
-        padding: 0px;
-        margin: 0px;
-        width: 110%;
-        padding-left: 10px;
-    }
-
-    .contenedor p {
-        width: auto;
-    }
-
-
-    /*pagina proyectos*/
-    .titulo-proyectos h1 {
-        padding-top: 20px;
-        font-size: 50px;
-        padding: 0px;
-    }
-
-    .container {
-        width: 90%;
-        margin: 0px;
-        padding: 0px;
-        padding-top: 100px;
-
-    }
-
-    .row {
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .row img {
-        margin: 0px;
-        padding: 0px;
-    }
-
-
-    .col-4 {
-        width: 90%;
-        padding: 0px;
-        margin: 0px;
-    }
-
-
-
-    /*pagina contacto*/
-    .grid-contacto {
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-        margin: 0px;
-        width: 90%;
-
-    }
-
-    .zona {
-        margin: 0px;
+        margin-left: 0px;
         padding-top: 0px;
     }
-
-    .zona-titulo {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 100%;
-        margin: 0px;
-    }
-
-    .zona-formulario {
-        padding: 0px;
-        padding-top: 70px;
-        padding-bottom: 90px;
-        padding-right: 40px;
-        margin: 0px;
-    }
-
-    input.enviar {
-        margin: 0px;
-        padding-top: 10px;
-    }
-
-    .zona-mapa {
-        padding-bottom: 20px;
-        padding-left: 0px;
-        padding-right: 30px;
-    }
-
-    iframe {
-        width: 97%;
-        margin: 0px;
-        padding: 0px;
-    }
-
 
 
     /*footer*/
     footer {
-        align-items: center;
-        flex-direction: column;
-        padding: 0px;
+        padding-top: 50px;
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: center;
+        border: 1px solid #4c19d8;
     }
 
     .logo1 {
-        width: 250px;
-        flex-direction: column;
-        margin-left: 120px;
+        padding-left: 0px;
+        width: 40%;
+        border: 1px solid #d81923;
+
     }
 
     .contenedor-footer {
         flex-direction: column;
         gap: 0rem;
         padding-top: 0px;
+        padding-left: 0px;
+        text-align: center;
     }
 
     .informacion p {
         text-align: center;
+        border: 1px solid #d81923;
+    }
+
+    .linea-footer {
+        width: 100%;
+        margin-left: 0px;
     }
 
     .barra-rrss {
-        height: 70px;
-        display: flex;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
         justify-content: center;
         padding-right: 0px;
-    }
-
-    .redes-sociales {
-        display: flex;
-        padding-right: 20px;
+        border: 1px solid #d81923;
     }
 }
