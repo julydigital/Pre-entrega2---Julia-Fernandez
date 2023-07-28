@@ -513,13 +513,18 @@ main {
 
     .navbar-brand {
         margin-right: 0px;
-     border: 1px solid #3919d8; 
+     /*border: 1px solid #3919d8; */
     }
 
+    .navbar-nav {
+        font-size: 16px;
+     /*border: 1px solid #3919d8; */
+    }
+    
     .navbar-toggler {
         align-items: end;
         justify-items: end;
-       border: 1px solid #d8192f; 
+      /* border: 1px solid #d8192f; */
     }
 
     .linea-superior {
