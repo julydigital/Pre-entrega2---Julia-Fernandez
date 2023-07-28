@@ -463,8 +463,18 @@ main {
         margin-right: 30px;
         text-align: end;
         gap: 320px;
+     }
+
+    .info1{
+        width: 500px;
+        flex-wrap: 100%;
     }
 
+    .info2{
+        width: 500px;
+        flex-wrap: 100%;
+    }
+    
     .informacion p {
         margin-bottom: 0px;
         padding-bottom: 4px;
@@ -533,6 +543,11 @@ main {
     }
 
      /*pagina index*/
+
+     .carousel-inner{
+        width: 150%;
+        padding: 0px;
+     }
         .imagen-principal {
         margin: 0px;
         text-align: end;
@@ -580,6 +595,14 @@ main {
         font-size: 100%;
     }
 
+    .info1{
+        width: 500px;
+    }
+
+    .info2{
+        width: 500px;
+    }
+    
     .linea-footer {
         width: 100%;
         margin-left: 0px;
