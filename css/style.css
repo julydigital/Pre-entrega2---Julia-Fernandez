@@ -81,8 +81,8 @@ main {
 /*footer*/
 footer {
     padding-top: 50px;
-    padding-left: 98px;
-    padding-right: 98px;
+    margin-left: 98px;
+    margin-right: 98px;
 }
 
 .logo1 {
@@ -95,20 +95,33 @@ footer {
     display: flex;
     padding-top: 30px;
     padding-bottom: 20px;
-    padding-left: 40px;
-    gap: 820px;
+    padding-left: 20px;
+    padding-right: 70px;
     align-items: flex-end;
     /*border: 1px solid rgb(92, 216, 25);*/
 }
 
+.informacion {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+   /* border: 1px solid rgb(105, 25, 216);*/
+}
+
 .informacion p {
-    flex: 1;
-    flex-direction: column;
     color: #ffffffe0;
     font-family: 'MuseoSans', sans-serif;
     font-size: 13px;
     margin-bottom: 0px;
     padding-bottom: 4px;
+   /* border: 1px solid rgb(216, 25, 130);*/
+}
+
+.info1 {
+    text-align: left;
+}
+
+.info2 {
     text-align: end;
 }
 
@@ -391,31 +404,20 @@ main {
 
 
 
-@media screen and (max-width: 1400px) {
-
-    /*footer*/
-    footer {
-        margin: 0px;
-    }
-
+@media screen and (max-width: 1200px) {
+ /*footer*/       
     .contenedor-footer {
-        flex: 1;
-        margin-left: 20px;
+        width: 100%;
+        display: flex;
         padding-top: 30px;
         padding-bottom: 20px;
-        padding-left: 0px;
-        margin-right: 30px;
-        text-align: end;
-        gap: 60%;
+        padding-left: 20px;
+        padding-right: 70px;
+        align-items: flex-end;
+        /*border: 1px solid rgb(92, 216, 25);*/
     }
-
-    .informacion p {
-        margin-bottom: 0px;
-        padding-bottom: 4px;
-        margin: 0px;
-        /*border: 1px solid #d8192f; */
-    }
-
+    
+  
     /*pagina nosotros*/
     .grid {
         align-items: center;
@@ -438,9 +440,25 @@ main {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
+/* barra de navegacion "nav"*/
+.navbar-brand img {
+ margin-left: -20px;
+    width: 100%;
+    /*border: 1px solid #3919d8; */
+}
 
-    /*pagina index*/
+.navbar-nav {
+    align-items: flex-end;
+    margin-right: 0px;
+    /*border: 1px solid #3919d8; */
+}
+
+.collapse{
+    margin-right: -20px;
+}
+
+/*pagina index*/
     .imagen-principal h1 {
         margin-top: 0px;
         padding-top: 60px;
@@ -453,59 +471,92 @@ main {
 
     /*footer*/
     footer {
-        margin: 0px;
+        padding-top: 50px;
+        text-align: center;
+        border: 1px solid #d8192f; 
     }
 
     .contenedor-footer {
-        flex: 1;
-         width: 100%;
-             padding-top: 30px;
-        padding-bottom: 20px;
-        margin: 0px;  
+         flex-direction: column;
+         padding-left: 0px;
+         padding-right: 0px;
+        border: 1px solid rgb(92, 216, 25);
+    }
+     
+    .informacion {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        width: 100%;
+        text-align: center;
+        border: 1px solid rgb(105, 25, 216);
+    }
+   
+    .logo1 {
+        padding-left: 0px;
+        width: 40%;
+        /*border: 1px solid #d8192f; */
     }
 
-    .informacion p {
-        margin-bottom: 0px;
-        padding-bottom: 4px;
-        margin: 0px;
+    .linea-footer {
+        width: 100%;
+        margin-left: 0px;
     }
 
+    .barra-rrss {
+        justify-content: center;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    
     /*pagina nosotros*/
     .grid {
-        align-items: center;
-        justify-items: center;
-        /* border: 1px solid hsl(132, 79%, 47%);*/
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+                border: 1px solid #3919d8; 
+    }
+    
+.box1{
+    margin-left: -100px;
+}
+
+    .box1 h1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        border: 1px solid hsl(129, 79%, 47%); 
     }
 
     .box2 {
-        font-size: 14px;
-        margin: 0px;
-        /*border: 1px solid #ed9d1c; */
+        padding-top: 0px;
+        padding-left: 20px;
+        margin-right: 0px;
+        font-size: 16px;
+        border: 1px solid #d81926;
+
     }
 
-    .box3 {
-        margin-top: 20px;
+    .box3 img {
+        padding: 0px;
     }
 
-    .box4 {
-        margin-top: 20px;
+    .box4 img {
+        padding: 0px;
     }
 
-    .box h4 {
-        font-size: 13px;
+    .box3{
+        padding-bottom: 0px;
     }
 
     .box5 {
-        width: 85%;
-        margin-left: -5px;
-        margin-top: -70px;
-        border: 1px solid #757272de;
+        width: 0px;
     }
 }
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 500px) {
     header {
         flex-direction: column;
     }
@@ -560,27 +611,30 @@ main {
     /*footer*/
     footer {
         padding-top: 50px;
-        padding-right: 0px;
-        padding-left: 0px;
         text-align: center;
-        /*border: 1px solid #d8192f; */
+        border: 1px solid #d8192f; 
     }
 
+    .contenedor-footer {
+         flex-direction: column;
+         padding-left: 0px;
+         padding-right: 0px;
+        border: 1px solid rgb(92, 216, 25);
+    }
+     
+    .informacion {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        width: 100%;
+        text-align: center;
+        border: 1px solid rgb(105, 25, 216);
+    }
+   
     .logo1 {
         padding-left: 0px;
         width: 40%;
         /*border: 1px solid #d8192f; */
-    }
-
-    .contenedor-footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .informacion {
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
     }
 
     .linea-footer {
@@ -605,8 +659,9 @@ main {
     .box1 h1 {
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-right: -10px;
+        padding-left: 70px;
         font-size: 50px;
+        margin: 0px;
     }
 
     .box2 {
