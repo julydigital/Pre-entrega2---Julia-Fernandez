@@ -448,6 +448,8 @@ main {
     /*footer*/
     footer {
         padding-top: 50px;
+        margin-right: 0px;
+        margin-left: 0px;
         text-align: center;
     }
 
@@ -467,13 +469,11 @@ main {
 
     .logo1 {
         padding-left: 0px;
-        width: 30%;
         /*border: 1px solid #d8192f; */
     }
 
     .linea-footer {
-        width: 110%;
-        margin-left: 0px;
+        margin: 0px;
     }
 
     .barra-rrss {
@@ -482,6 +482,10 @@ main {
     }
 
     /*pagina nosotros*/
+    .linea-superior {
+        margin: 0px;
+    }
+    
     .grid {
         display: flex;
         flex-direction: column;
@@ -534,7 +538,6 @@ main {
 
     .navbar-brand {
         margin-right: 0px;
-        width: 50%;
         /*border: 1px solid #3919d8; */
     }
 
@@ -559,9 +562,12 @@ main {
     }
 
     /*footer*/
+    footer {
+        margin-left: 0px;
+    }
+
     .logo1 {
         padding-top: 0px;
-        width: 40%;
     }
 
     /*pagina nosotros*/
