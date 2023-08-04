@@ -595,9 +595,11 @@ main {
     }
 
     .box1 h1 {
-     margin-left: 60px;
+     margin-left: 0px;
     margin-right: 0px;
+    padding-left: 110px;
     padding-right: 0px;
+      border: 1px solid #3919d8; 
     }
 
     .box2 {
