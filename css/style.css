@@ -382,7 +382,6 @@ main {
     grid-area: zona-mapa;
     padding-left: 100px;
     padding-bottom: 30px;
-     border: 1px solid #4c19d8;
 }
 
 
@@ -425,6 +424,21 @@ main {
     /*pagina contacto*/
     .zona-titulo h1 {
         padding-top: 80px;
+    }
+
+    .campo{
+        width: 80%;
+    }
+
+    .enviar{
+       margin-right: 80px;
+    }
+    .zona-mapa{
+       width: 80%;
+    }
+
+    iframe {
+        width: 90%;
     }
 }
 
@@ -511,13 +525,14 @@ main {
     }
 
     .box1 {
-        margin-left: -150px;
+        margin-left: -200px;
     }
 
     .box1 h1 {
-        padding-top: 20px;
+        padding-top: 60px;
         padding-bottom: 20px;
         font-size: 50px;
+        
     }
 
     .box2 {
@@ -554,7 +569,7 @@ main {
     }
 
     .zona {
-        width: 140%;
+        width: 100%;
          border: 1px solid #d8192f; 
     }
 
@@ -566,7 +581,11 @@ main {
         padding-left: 0px;
         padding-top: 40px;
         padding-bottom: 90px;
-        padding-right: 0px;
+        padding-right: -20px;
+    }
+
+    .campo{
+        width: 100%;
     }
 
     .zona-mapa {
@@ -660,12 +679,17 @@ main {
 
     /*pagina contacto*/
     .grid-contacto {
-        width: 90%;
+        width: 85%;
                  border: 1px solid #1933d8; 
     }
     .zona {
-        width: 98%;
+        width: 100%;
          border: 1px solid #d8192f; 
+    }
+   
+    .zona-titulo {
+        padding-bottom: 100%;
+        padding-right: 0px;
     }
 
 .zona-formulario{
@@ -678,11 +702,11 @@ main {
     }
 
     .zona-mapa {
-        padding-right: 10px;
+        padding-right: 0px;
         border: 1px solid hwb(70 10% 16%); 
     }
 
     iframe {
-        width: 103%;
+        width: 100%;
     }
 }
