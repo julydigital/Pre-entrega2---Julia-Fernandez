@@ -50,11 +50,13 @@ main {
     margin-right: 40px;
     margin-top: 250px;
     gap: 20px;
+    border: 1px solid #d81962;
 }
 
 .iconos {
     display: flex;
     flex-direction: column;
+    border: 1px solid #d8bf19;
 }
 
 
@@ -77,6 +79,7 @@ footer {
     padding-top: 50px;
     margin-left: 98px;
     margin-right: 98px;
+        border: 1px solid rgb(25, 216, 98);
 }
 
 .logo1 {
@@ -379,7 +382,7 @@ main {
     grid-area: zona-mapa;
     padding-left: 100px;
     padding-bottom: 30px;
-    /* border: 1px solid #4c19d8;*/
+     border: 1px solid #4c19d8;
 }
 
 
@@ -413,12 +416,18 @@ main {
     }
 
     .box5 {
-        width: 85%;
+        width: 80%;
         margin-left: -5px;
         margin-top: -35px;
         border: 1px solid #757272de;
     }
+
+    /*pagina contacto*/
+    .zona-titulo h1 {
+        padding-top: 80px;
+    }
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -535,6 +544,40 @@ main {
         width: 0px;
         order: 0;
     }
+
+    /*pagina contacto*/
+    .grid-contacto {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+         border: 1px solid #1933d8; 
+    }
+
+    .zona {
+        width: 140%;
+         border: 1px solid #d8192f; 
+    }
+
+    .zona-titulo {
+        padding-bottom: 100%;
+    }
+
+    .zona-formulario {
+        padding-left: 0px;
+        padding-top: 40px;
+        padding-bottom: 90px;
+        padding-right: 0px;
+    }
+
+    .zona-mapa {
+        padding-left: 0px;
+        margin-left: 0px;
+
+    }
+
+    iframe {
+        width: 100%;
+    }
 }
 
 
@@ -613,5 +656,33 @@ main {
     .box5 {
         width: 0%;
         order: 1;
+    }
+
+    /*pagina contacto*/
+    .grid-contacto {
+        width: 90%;
+                 border: 1px solid #1933d8; 
+    }
+    .zona {
+        width: 98%;
+         border: 1px solid #d8192f; 
+    }
+
+.zona-formulario{
+    padding-right: 10px;
+    border: 1px solid hsl(323, 79%, 47%); 
+}
+    input.enviar {
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+    .zona-mapa {
+        padding-right: 10px;
+        border: 1px solid hwb(70 10% 16%); 
+    }
+
+    iframe {
+        width: 103%;
     }
 }
