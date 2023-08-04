@@ -50,13 +50,11 @@ main {
     margin-right: 40px;
     margin-top: 250px;
     gap: 20px;
-    border: 1px solid rgb(216, 25, 130);
 }
 
 .iconos {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(114, 25, 216);
 }
 
 
@@ -442,7 +440,7 @@ main {
         margin-right: -20px;
     }
 
-    
+
     /*pagina index*/
     .slide img {
         height: 80vh;
@@ -483,15 +481,13 @@ main {
     .barra-rrss {
         justify-content: center;
         padding-right: 0px;
-                /*border: 1px solid #d8192f; */
-
+        /*border: 1px solid #d8192f; */
     }
 
     .redes-sociales {
         display: flex;
         padding-bottom: 30px;
-                /*border: 1px solid #d8192f; */
-
+        /*border: 1px solid #d8192f; */
     }
 
     /*pagina nosotros*/
@@ -569,13 +565,11 @@ main {
 
     .iconos_link {
         margin-left: 0px;
-        border: 1px solid rgb(216, 25, 130);
     }
 
     .iconos {
         display: flex;
         flex-direction: column;
-        border: 1px solid rgb(25, 89, 216);
     }
 
     /*pagina index*/
@@ -591,15 +585,17 @@ main {
     /*pagina nosotros*/
     .grid {
         margin-right: 0px;
-        border: 1px solid hsl(132, 79%, 47%);
+    }
+
+    .box1 {
+        margin-left: -40px;
     }
 
     .box1 h1 {
-     margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 110px;
-    padding-right: 0px;
-      border: 1px solid #3919d8; 
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .box2 {
