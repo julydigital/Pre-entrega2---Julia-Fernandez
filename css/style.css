@@ -50,11 +50,13 @@ main {
     margin-right: 40px;
     margin-top: 250px;
     gap: 20px;
+    border: 1px solid rgb(216, 25, 130);
 }
 
 .iconos {
     display: flex;
     flex-direction: column;
+    border: 1px solid rgb(114, 25, 216);
 }
 
 
@@ -131,6 +133,7 @@ footer {
     display: flex;
     gap: 20px;
     padding-right: 50px;
+    /* border: 1px solid hsl(132, 79%, 47%);*/
 }
 
 .redes-sociales {
@@ -439,6 +442,7 @@ main {
         margin-right: -20px;
     }
 
+    
     /*pagina index*/
     .slide img {
         height: 80vh;
@@ -479,13 +483,22 @@ main {
     .barra-rrss {
         justify-content: center;
         padding-right: 0px;
+                /*border: 1px solid #d8192f; */
+
+    }
+
+    .redes-sociales {
+        display: flex;
+        padding-bottom: 30px;
+                /*border: 1px solid #d8192f; */
+
     }
 
     /*pagina nosotros*/
     .linea-superior {
         margin: 0px;
     }
-    
+
     .grid {
         display: flex;
         flex-direction: column;
@@ -499,7 +512,6 @@ main {
     .box1 h1 {
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 0px;
         font-size: 50px;
     }
 
@@ -555,6 +567,16 @@ main {
         /* border: 1px solid #d8192f; */
     }
 
+    .iconos_link {
+        margin-left: 0px;
+        border: 1px solid rgb(216, 25, 130);
+    }
+
+    .iconos {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(25, 89, 216);
+    }
 
     /*pagina index*/
     .slide img {
@@ -562,22 +584,32 @@ main {
     }
 
     /*footer*/
-    footer {
-        margin-left: 0px;
-    }
-
     .logo1 {
         padding-top: 0px;
     }
 
     /*pagina nosotros*/
-    .box1 {
-        margin-left: 30px;
-        margin-left: 0px;
+    .grid {
+        margin-right: 0px;
+        border: 1px solid hsl(132, 79%, 47%);
+    }
+
+    .box1 h1 {
+     margin-left: 60px;
+    margin-right: 0px;
+    padding-right: 0px;
     }
 
     .box2 {
         padding: 0px;
+    }
+
+    .box4 {
+        width: 100%;
+    }
+
+    .box3 {
+        width: 100%;
     }
 
     .box5 {
