@@ -29,12 +29,12 @@ body {
 .imagen-principal img {
     padding-left: 100px;
 }
-.imagen-principal h1 {
+.imagen-principal-texto h1 {
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 6px;
     margin-top: -120px;
 }
-.imagen-principal p {
+.imagen-principal-texto p {
     font-family: 'Oxygen', sans-serif;
     letter-spacing: 3px;
 }

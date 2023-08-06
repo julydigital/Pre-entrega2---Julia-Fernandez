@@ -1,17 +1,19 @@
-.imagen-principal{
+.imagen-principal {
 
     img {
         padding-left: 100px;
     }
 
-    h1 {
-        font-family: $fontNoto;
-        letter-spacing: 6px;
-        margin-top: -120px;
-    }
+    .imagen-principal-texto {
+        h1 {
+            font-family: $fontNoto;
+            letter-spacing: 6px;
+            margin-top: -120px;
+        }
 
-    p {
-        font-family: $fontOxygen;
-        letter-spacing: 3px;
+        p {
+            font-family: $fontOxygen;
+            letter-spacing: 3px;
+        }
     }
 }
