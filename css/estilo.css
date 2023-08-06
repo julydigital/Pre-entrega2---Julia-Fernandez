@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2? family= Noto+Sans:wght@100 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Oxygen:wght@300 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #100e0e;
+  color: #f6f8f9;
+}
+
+.navbar-brand {
+  cursor: default;
+}
+.navbar-brand .navbar-brand img {
+  width: 80%;
+  padding-left: 80px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+  padding-right: 110px;
+}
+
+.imagen-principal img {
+  padding-left: 100px;
+}
+.imagen-principal h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 6px;
+  margin-top: -120px;
+}
+.imagen-principal p {
+  font-family: "Oxygen", sans-serif;
+  letter-spacing: 3px;
+}
+
+.grid {
+  width: 92%;
+  padding-left: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 0.7fr 1.5fr 0.5 0.3fr;
+  grid-template-areas: "box1    .      . " "box2   box3   box4" "box5   box3   box4" "box5    .        .";
+}
+.grid .box img {
+  width: 100%;
+}
+.grid .box h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  color: #f6f8f9;
+  padding-top: 10px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.grid .box h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 50px;
+  color: #f6f8f9;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+.grid .box p {
+  color: #f6f8f9;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Oxygen", sans-serif;
+  line-height: 24px;
+}
+.grid .box .box1 {
+  grid-area: box1;
+  padding-top: 60px;
+  padding-left: 80px;
+  margin-right: 90px;
+}
+.grid .box .box2 {
+  grid-area: box2;
+  padding-right: 50px;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+.grid .box .box3 {
+  grid-area: box3;
+  padding: 50px 10px 40px 40px;
+  background-color: #191919;
+}
+.grid .box .box4 {
+  grid-area: box4;
+  padding: 50px 40px 40px 10px;
+  background-color: #191919;
+}
+.grid .box .box5 {
+  grid-area: box5;
+  background-color: rgba(117, 114, 114, 0.8705882353);
+  height: 1.4px;
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.titulo-servicios {
+  padding-top: 60px;
+  padding-left: 80px;
+  margin-right: 1000px;
+  margin-left: 100px;
+}
+.titulo-servicios h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 50px;
+  color: #f6f8f9;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.contenedores {
+  display: flex;
+  padding-left: 100px;
+  margin-right: 90px;
+}
+.contenedores .contenedor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 50px;
+}
+.contenedores .contenedor img {
+  width: 90%;
+}
+.contenedores .contenedor h6 {
+  font-family: "Oxygen", sans-serif;
+  color: #f6f8f9;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-align: center;
+}
+.contenedores .contenedor p {
+  font-family: "Oxygen", sans-serif;
+  color: #f6f8f9;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  width: 75%;
+}
+
+.titulo-proyectos {
+  padding-top: 60px;
+  padding-left: 80px;
+  margin-right: 1000px;
+  margin-left: 100px;
+}
+.titulo-proyectos h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 50px;
+  color: #f6f8f9;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.grid-contacto {
+  padding-left: 100px;
+  width: 92%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.6fr 0.8fr 0.2fr;
+  grid-template-areas: "zona-titulo   zona-formulario" "zona-titulo    zona-formulario" "zona-titulo      zona-mapa";
+}
+.grid-contacto zona .zona-titulo {
+  grid-area: zona-titulo;
+  padding-bottom: 20px;
+  background-image: url(../imagenes/imagen_contacto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.grid-contacto zona .zona-titulo h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 50px;
+  color: #f6f8f9;
+  letter-spacing: 5px;
+  font-weight: 600;
+  padding-top: 80px;
+  padding-left: 80px;
+  margin-right: 90px;
+}
+.grid-contacto zona .zona-titulo::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4705882353);
+  z-index: -1;
+}
+.grid-contacto zona .zona-formulario {
+  grid-area: zona-formulario;
+  padding: 140px 100px;
+  border: none;
+}
+.grid-contacto zona .zona-formulario .campo {
+  font-family: "Oxygen", sans-serif;
+  font-size: 15px;
+  color: #f6f8f9;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  background-color: #100e0e;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid hsl(0, 1%, 46%);
+  outline: none;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+.grid-contacto zona .zona-formulario .enviar {
+  font-family: "Oxygen", sans-serif;
+  font-size: 15px;
+  color: #f6f8f9;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  background-color: #100e0e;
+  border: 1px solid hsl(0, 1%, 46%);
+  padding: 10px 10px 10px 10px;
+  margin: 30px 0px 0px 400px;
+  cursor: pointer;
+}
+.grid-contacto zona .zona-mapa {
+  grid-area: zona-mapa;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+
+footer {
+  padding-top: 50px;
+  margin-left: 98px;
+  margin-right: 98px;
+}
+footer .logo1 {
+  width: 200px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+footer .contenedor-footer {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  align-items: flex-end;
+}
+footer .contenedor-footer .informacion {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+footer .contenedor-footer .informacion p {
+  color: #f6f8f9;
+  font-family: "Oxygen", sans-serif;
+  font-size: 13px;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
+}
+footer .contenedor-footer .informacion .info1 {
+  text-align: left;
+}
+footer .contenedor-footer .informacion .info2 {
+  text-align: end;
+}
+footer .linea-footer {
+  border-top: rgba(93, 90, 90, 0.87) solid 0.5px;
+  width: 97%;
+  margin-left: 20px;
+}
+footer .barra-rrss {
+  height: 70px;
+  justify-content: end;
+  display: flex;
+  gap: 20px;
+  padding-right: 50px;
+}
+footer .barra-rrss .redes-sociales {
+  display: flex;
+  padding-bottom: 30px;
+}/*# sourceMappingURL=estilo.css.map */

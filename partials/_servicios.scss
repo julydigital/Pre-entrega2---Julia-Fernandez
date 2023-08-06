@@ -1,0 +1,50 @@
+.titulo-servicios {
+    padding-top: 60px;
+    padding-left: 80px;
+    margin-right: 1000px;
+    margin-left: 100px;
+
+    h1 {
+        font-family: $fontNoto;
+        font-size: 50px;
+        color: $tipografiaColor;
+        letter-spacing: 5px;
+        font-weight: 600;
+    }
+}
+
+.contenedores {
+    display: flex;
+    padding-left: 100px;
+    margin-right: 90px;
+
+    .contenedor {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding-top: 50px;
+
+        img {
+            width: 90%;
+        }
+
+        h6 {
+            font-family: $fontOxygen;
+            color: $tipografiaColor;
+            letter-spacing: 1px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        p {
+            font-family: $fontOxygen;
+            color: $tipografiaColor;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            width: 75%;
+        }
+    }
+}
