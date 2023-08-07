@@ -30,16 +30,17 @@ footer {
                 padding-bottom: 4px;
             }
 
-            .info1 {
+            &.info1 {
                 text-align: left;
             }
-
-            .info2 {
+        
+            &.info2 {
                 text-align: end;
             }
         }
     }
-
+   
+    
     .linea-footer {
         border-top: rgba(93, 90, 90, 0.87) solid .5px;
         width: 97%;

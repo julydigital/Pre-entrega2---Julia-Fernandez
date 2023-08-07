@@ -1,3 +1,9 @@
+.linea-superior {
+    border-top: #8f8a8ade solid 1.5px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .grid {
     width: 92%;
     padding-left: 100px;
@@ -10,11 +16,12 @@
         "box5   box3   box4"
         "box5    .        .";
 
+
     .box {
         img {
             width: 100%;
         }
- 
+
         h4 {
             font-family: $fontOxygen;
             font-size: 16px;
@@ -33,40 +40,40 @@
         }
 
         p {
-            color:$tipografiaColor;
+            color: $tipografiaColor;
             font-size: 16px;
             font-weight: 100;
             font-family: $fontOxygen;
             line-height: 24px;
         }
 
-        .box1 {
+        &.box1 {
             grid-area: box1;
             padding-top: 60px;
             padding-left: 80px;
             margin-right: 90px;
         }
 
-        .box2 {
+        &.box2 {
             grid-area: box2;
             padding-right: 50px;
             padding-top: 60px;
             padding-left: 30px;
         }
 
-        .box3 {
+        &.box3 {
             grid-area: box3;
             padding: 50px 10px 40px 40px;
             background-color: #191919;
         }
 
-        .box4 {
+        &.box4 {
             grid-area: box4;
             padding: 50px 40px 40px 10px;
             background-color: #191919;
         }
 
-        .box5 {
+        &.box5 {
             grid-area: box5;
             background-color: #757272de;
             height: 1.4px;

@@ -1,19 +1,26 @@
-.imagen-principal {
+body {
+    background-color: $bodyColor;
 
-    img {
-        padding-left: 100px;
-    }
+    .imagen-principal {
+        background-color: transparent;
 
-    .imagen-principal-texto {
+        img {
+            padding-left: 100px;
+        }
+
         h1 {
             font-family: $fontNoto;
             letter-spacing: 6px;
             margin-top: -120px;
+            padding-left: 100px;
+            background-color: transparent;
         }
 
         p {
             font-family: $fontOxygen;
             letter-spacing: 3px;
+            padding-left: 100px;
+            background-color: transparent;
         }
     }
 }

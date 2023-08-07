@@ -1,14 +1,14 @@
-   .navbar-brand {
-       cursor: default;
+.navbar-brand {
+    cursor: default;
 
-       .navbar-brand img {
-           width: 80%;
-           padding-left: 80px;
-       }
-   }
+    img {
+        width: 80%;
+        padding-left: 80px;
+    }
+}
 
-   .navbar-collapse {
-       display: flex;
-       justify-content: end;
-       padding-right: 110px;
-   }
+.navbar-collapse {
+    display: flex;
+    justify-content: end;
+    padding-right: 110px;
+}
