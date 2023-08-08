@@ -62,33 +62,17 @@ body .imagen-principal p {
 .grid .box img {
   width: 100%;
 }
-.grid .box h4 {
-  font-family: "Oxygen", sans-serif;
-  font-size: 16px;
-  color: #f6f8f9;
-  padding-top: 10px;
-  line-height: 20px;
-  font-weight: 300;
+.grid .box.box1 {
+  grid-area: box1;
+  padding-top: 60px;
+  padding-left: 80px;
 }
-.grid .box h1 {
+.grid .box.box1 h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
   color: #f6f8f9;
   letter-spacing: 5px;
   font-weight: 600;
-}
-.grid .box p {
-  color: #f6f8f9;
-  font-size: 16px;
-  font-weight: 100;
-  font-family: "Oxygen", sans-serif;
-  line-height: 24px;
-}
-.grid .box.box1 {
-  grid-area: box1;
-  padding-top: 60px;
-  padding-left: 80px;
-  margin-right: 90px;
 }
 .grid .box.box2 {
   grid-area: box2;
@@ -96,14 +80,39 @@ body .imagen-principal p {
   padding-top: 60px;
   padding-left: 30px;
 }
+.grid .box.box2 p {
+  color: #f6f8f9;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Oxygen", sans-serif;
+  line-height: 24px;
+}
 .grid .box.box3 {
   grid-area: box3;
   padding: 50px 10px 40px 40px;
   background-color: #191919;
 }
+.grid .box.box3 h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  color: #f6f8f9;
+  padding-top: 10px;
+  line-height: 20px;
+  font-weight: 300;
+  background-color: #191919;
+}
 .grid .box.box4 {
   grid-area: box4;
   padding: 50px 40px 40px 10px;
+  background-color: #191919;
+}
+.grid .box.box4 h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  color: #f6f8f9;
+  padding-top: 10px;
+  line-height: 20px;
+  font-weight: 300;
   background-color: #191919;
 }
 .grid .box.box5 {
@@ -174,9 +183,10 @@ body .imagen-principal p {
 
 .titulo-proyectos {
   padding-top: 60px;
-  padding-left: 80px;
-  margin-right: 1000px;
-  margin-left: 100px;
+  padding-left: 100px;
+  margin-right: 90px;
+  margin-left: 80px;
+  padding-bottom: 5px;
 }
 .titulo-proyectos h1 {
   font-family: "Noto Sans JP", sans-serif;
@@ -312,4 +322,255 @@ footer .barra-rrss {
 footer .barra-rrss .redes-sociales {
   display: flex;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  /* header */
+  .navbar-brand img {
+    margin-left: -20px;
+    width: 100%;
+  }
+  .collapse {
+    margin-right: -20px;
+  }
+  .collapse .navbar-nav {
+    align-items: flex-end;
+    margin-right: 0px;
+  }
+  /* index */
+  .slide img {
+    height: 80vh;
+  }
+  /* footer */
+  footer {
+    padding-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  footer .logo1 {
+    padding-left: 0px;
+  }
+  footer .contenedor-footer {
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer .contenedor-footer .informacion {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: 100%;
+  }
+  footer .contenedor-footer .informacion p {
+    font-size: 18px;
+    text-align: center;
+  }
+  footer .contenedor-footer .informacion.info1 p {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  footer .linea-footer {
+    margin: 0px;
+  }
+  footer .barra-rrss {
+    justify-content: center;
+    padding-right: 0px;
+  }
+  footer .barra-rrss .redes-sociales {
+    display: flex;
+    padding-bottom: 30px;
+  }
+  .linea-superior {
+    margin: 0px;
+  }
+  /* nosotros */
+  .grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+  }
+  .grid .box {
+    width: 80%;
+    align-items: center;
+    margin: 0px;
+  }
+  .grid .box h4 {
+    font-size: 18px;
+  }
+  .grid .box.box1 h1 {
+    margin-left: -20px;
+    padding-bottom: 0px;
+    font-size: 40px;
+  }
+  .grid .box.box2 {
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+  .grid .box.box2 p {
+    font-size: 18px;
+  }
+  .grid .box.box4 {
+    width: 80%;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    order: 2;
+  }
+  .grid .box.box3 {
+    width: 80%;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+  .grid .box.box5 {
+    width: 0px;
+    order: 0;
+  }
+  /* servicios */
+  .titulo-servicios {
+    padding-bottom: 0px;
+    padding-left: 40px;
+  }
+  .titulo-servicios h1 {
+    font-size: 40px;
+  }
+  .contenedores {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+  }
+  .contenedores .contenedor {
+    width: 80%;
+  }
+  /* proyectos */
+  .titulo-proyectos {
+    padding-left: 60px;
+  }
+  .titulo-proyectos h1 {
+    font-size: 40px;
+  }
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .container .row {
+    justify-content: center;
+    align-content: center;
+  }
+  .container .row .col-md-4 {
+    width: 90%;
+  }
+  /* contacto */
+  .grid-contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  .grid-contacto .zona {
+    margin: 0px;
+    padding: 0px;
+  }
+  .grid-contacto .zona-titulo h1 {
+    padding-bottom: 100%;
+    font-size: 40px;
+    margin-left: 150px;
+    padding-left: 0px;
+    margin-right: 200px;
+  }
+  .grid-contacto .zona-formulario {
+    padding-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+  }
+  .grid-contacto .zona-formulario .campo {
+    width: 80%;
+  }
+  .grid-contacto .zona-mapa {
+    padding-left: 80px;
+    margin: 0px;
+  }
+  .grid-contacto .zona-mapa iframe {
+    width: 83%;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* header */
+  .navbar-brand img {
+    padding-left: 20px;
+  }
+  .navbar-toggler {
+    margin-right: 30px;
+  }
+  .navbar-nav {
+    font-size: 20px;
+  }
+  /* index */
+  .slide img {
+    height: 60vh;
+  }
+  /*footer*/
+  .info1 p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /*pagina nosotros*/
+  .box1 h1 {
+    margin-left: -50px;
+  }
+  /*pagina servicios*/
+  .titulo-servicios h1 {
+    margin-left: -60px;
+  }
+  .contenedores {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contenedores .contenedor p {
+    width: 90%;
+  }
+  .contenedores .contenedor img {
+    width: 100%;
+  }
+  /*pagina proyectos*/
+  .titulo-proyectos h1 {
+    margin-left: -50px;
+  }
+  .container {
+    width: 95%;
+  }
+  .container .row {
+    gap: 30px;
+  }
+  /*pagina contacto*/
+  .grid-contacto {
+    margin: 0px;
+    padding: 0px;
+  }
+  .grid-contacto .zona-titulo h1 {
+    margin-left: 0px;
+    padding-left: 80px;
+  }
+  .grid-contacto .zona-formulario {
+    padding-left: 45px;
+  }
+  .grid-contacto .zona-formulario .campo {
+    width: 85%;
+  }
+  .grid-contacto .zona-formulario .enviar {
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .grid-contacto .zona-mapa {
+    padding-left: 30px;
+  }
+  .grid-contacto .zona-mapa iframe {
+    width: 85%;
+  }
 }/*# sourceMappingURL=estilo.css.map */

@@ -22,36 +22,19 @@
             width: 100%;
         }
 
-        h4 {
-            font-family: $fontOxygen;
-            font-size: 16px;
-            color: $tipografiaColor;
-            padding-top: 10px;
-            line-height: 20px;
-            font-weight: 300;
-        }
-
-        h1 {
-            font-family: $fontNoto;
-            font-size: 50px;
-            color: $tipografiaColor;
-            letter-spacing: 5px;
-            font-weight: 600;
-        }
-
-        p {
-            color: $tipografiaColor;
-            font-size: 16px;
-            font-weight: 100;
-            font-family: $fontOxygen;
-            line-height: 24px;
-        }
-
         &.box1 {
             grid-area: box1;
             padding-top: 60px;
             padding-left: 80px;
-            margin-right: 90px;
+          
+
+            h1 {
+                font-family: $fontNoto;
+                font-size: 50px;
+                color: $tipografiaColor;
+                letter-spacing: 5px;
+                font-weight: 600;
+            }
         }
 
         &.box2 {
@@ -59,18 +42,46 @@
             padding-right: 50px;
             padding-top: 60px;
             padding-left: 30px;
+
+            p {
+                color: $tipografiaColor;
+                font-size: 16px;
+                font-weight: 100;
+                font-family: $fontOxygen;
+                line-height: 24px;
+            }
         }
 
         &.box3 {
             grid-area: box3;
             padding: 50px 10px 40px 40px;
             background-color: #191919;
+
+            h4 {
+                font-family: $fontOxygen;
+                font-size: 16px;
+                color: $tipografiaColor;
+                padding-top: 10px;
+                line-height: 20px;
+                font-weight: 300;
+                background-color: #191919;
+            }
         }
 
         &.box4 {
             grid-area: box4;
             padding: 50px 40px 40px 10px;
             background-color: #191919;
+
+            h4 {
+                font-family: $fontOxygen;
+                font-size: 16px;
+                color: $tipografiaColor;
+                padding-top: 10px;
+                line-height: 20px;
+                font-weight: 300;
+                background-color: #191919;
+            }
         }
 
         &.box5 {

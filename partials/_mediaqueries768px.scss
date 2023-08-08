@@ -1,0 +1,235 @@
+@media screen and (max-width: 768px) {
+
+    /* header */
+    .navbar-brand {
+        img {
+            margin-left: -20px;
+            width: 100%;
+        }
+    }
+
+    .collapse {
+        margin-right: -20px;
+
+        .navbar-nav {
+            align-items: flex-end;
+            margin-right: 0px;
+        }
+    }
+
+
+
+    /* index */
+    .slide img {
+        height: 80vh;
+    }
+
+
+
+    /* footer */
+    footer {
+        padding-top: 50px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+
+        .logo1 {
+            padding-left: 0px;
+        }
+
+        .contenedor-footer {
+            flex-direction: column;
+            padding-left: 0px;
+            padding-right: 0px;
+
+            .informacion {
+                flex-grow: 1;
+                flex-shrink: 1;
+                flex-basis: auto;
+                width: 100%;
+
+                p {
+                    font-size: 18px;
+                    text-align: center;
+                }
+
+                &.info1 {
+                    p {
+                        font-size: 20px;
+                        padding-bottom: 50px;
+                    }
+                }
+            }
+        }
+
+        .linea-footer {
+            margin: 0px;
+        }
+
+        .barra-rrss {
+            justify-content: center;
+            padding-right: 0px;
+
+            .redes-sociales {
+                display: flex;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+
+
+    .linea-superior {
+        margin: 0px;
+    }
+
+
+    /* nosotros */
+    .grid {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+
+        .box {
+            width: 80%;
+            align-items: center;
+            margin: 0px;
+
+            h4 {
+                font-size: 18px;
+            }
+
+            &.box1 {
+                h1 {
+                    margin-left: -20px;
+                    padding-bottom: 0px;
+                    font-size: 40px;
+                }
+            }
+
+            &.box2 {
+                padding-left: 0px;
+                padding-right: 15px;
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            &.box4 {
+                width: 80%;
+                padding-left: 40px;
+                padding-bottom: 20px;
+                order: 2;
+            }
+
+            &.box3 {
+                width: 80%;
+                padding-right: 40px;
+                padding-bottom: 20px;
+            }
+
+            &.box5 {
+                width: 0px;
+                order: 0;
+            }
+        }
+    }
+
+
+
+    /* servicios */
+    .titulo-servicios {
+        padding-bottom: 0px;
+        padding-left: 40px;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .contenedores {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+
+        .contenedor {
+            width: 80%;
+        }
+    }
+
+
+    /* proyectos */
+    .titulo-proyectos {
+        padding-left: 60px;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        .row {
+            justify-content: center;
+            align-content: center;
+
+            .col-md-4 {
+                width: 90%;
+            }
+        }
+    }
+
+
+
+    /* contacto */
+    .grid-contacto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+
+        .zona {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .zona-titulo {
+
+            h1 {
+                padding-bottom: 100%;
+                font-size: 40px;
+                margin-left: 150px;
+                padding-left: 0px;
+                margin-right: 200px;
+            }
+        }
+
+        .zona-formulario {
+            padding-left: 80px;
+            padding-top: 40px;
+            padding-bottom: 90px;
+
+            .campo {
+                width: 80%;
+            }
+        }
+
+        .zona-mapa {
+            padding-left: 80px;
+            margin: 0px;
+
+            iframe {
+                width: 83%;
+            }
+        }
+    }
+}

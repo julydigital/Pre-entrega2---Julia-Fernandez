@@ -1,0 +1,112 @@
+@media screen and (max-width: 500px) {
+
+    /* header */
+    .navbar-brand {
+        img {
+            padding-left: 20px;
+        }
+    }
+
+    .navbar-toggler {
+        margin-right: 30px;
+    }
+
+    .navbar-nav {
+        font-size: 20px;
+    }
+
+
+    /* index */
+    .slide img {
+        height: 60vh;
+    }
+
+    /*footer*/
+    .info1 {
+        p {
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+
+    /*pagina nosotros*/
+    .box1 {
+        h1 {
+            margin-left: -50px;
+        }
+    }
+
+
+    /*pagina servicios*/
+    .titulo-servicios h1 {
+        margin-left: -60px;
+    }
+
+    .contenedores {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .contenedor {
+            p {
+                width: 90%;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+
+    /*pagina proyectos*/
+    .titulo-proyectos {
+        h1 {
+            margin-left: -50px;
+        }
+    }
+
+    .container {
+        width: 95%;
+
+        .row {
+            gap: 30px;
+        }
+    }
+
+
+    /*pagina contacto*/
+    .grid-contacto {
+        margin: 0px;
+        padding: 0px;
+
+        .zona-titulo {
+            h1 {
+                margin-left: 0px;
+                padding-left: 80px;
+            }
+        }
+
+        .zona-formulario {
+            padding-left: 45px;
+
+            .campo {
+                width: 85%;
+            }
+
+            .enviar {
+                margin: 0px;
+                margin-top: 20px;
+            }
+        }
+
+        .zona-mapa {
+            padding-left: 30px;
+
+            iframe {
+                width: 85%;
+            }
+        }
+    }
+}
