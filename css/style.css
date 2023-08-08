@@ -252,6 +252,11 @@ footer {
     margin-left: 100px;
 }
 
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 
 /*pagina contacto*/
@@ -461,9 +466,7 @@ footer {
         padding: 0px;
         align-items: center;
     }
-    .contenedor {
-        width: 80%;
-    }
+    
     /*pagina proyectos*/
     .titulo-proyectos h1 {
         font-size: 40px;
