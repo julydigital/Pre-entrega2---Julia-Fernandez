@@ -159,9 +159,16 @@
         align-items: center;
 
         .contenedor {
-            width: 80%;
+            p {
+                width: 100%;
+            }
+
+            img {
+                width: 110%;
+            }
         }
     }
+
 
 
     /* proyectos */
@@ -174,15 +181,15 @@
     }
 
     .container {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
 
         .row {
             justify-content: center;
             align-content: center;
 
             .col-md-4 {
-                width: 90%;
+                width: 100%;
             }
         }
     }
