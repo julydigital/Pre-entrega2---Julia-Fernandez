@@ -630,8 +630,17 @@ footer .barra-rrss .redes-sociales {
     font-size: 20px;
   }
   /* index */
-  .slide img {
+  .imagen-principal img {
+    padding-left: 0px;
+  }
+  .imagen-principal img .slide {
     height: 60vh;
+  }
+  .imagen-principal h1 {
+    padding-left: 0px;
+  }
+  .imagen-principal p {
+    padding-left: 0px;
   }
   /*footer*/
   .info1 p {
@@ -660,8 +669,8 @@ footer .barra-rrss .redes-sociales {
   }
   /*pagina proyectos*/
   .titulo-proyectos h1 {
-    margin-left: 0px;
-    padding-left: 80px;
+    margin-left: -60px;
+    padding-left: 0px;
   }
   .container {
     width: 80%;

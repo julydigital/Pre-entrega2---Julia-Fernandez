@@ -17,12 +17,25 @@
 
 
     /* index */
-    .slide img {
-        height: 60vh;
+    .imagen-principal {
+        img {
+            padding-left: 0px;
+
+            .slide {
+                height: 60vh;
+            }
+        }
+
+        h1 {
+            padding-left: 0px;
+        }
+
+        p {
+            padding-left: 0px;
+        }
     }
 
-
-
+    
     /*footer*/
     .info1 {
         p {
@@ -65,13 +78,14 @@
 
     /*pagina proyectos*/
     .titulo-proyectos h1 {
-        margin-left: 0px;
-        padding-left: 80px;
+        margin-left: -60px;
+        padding-left: 0px;
     }
 
     .container {
         width: 80%;
     }
+
     .row {
         gap: 30px;
     }

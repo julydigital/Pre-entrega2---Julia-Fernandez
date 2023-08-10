@@ -28,6 +28,7 @@ body {
 }
 
 
+
 /*pagina index*/
 .imagen-principal {
     background-color: transparent;
@@ -210,6 +211,7 @@ footer {
     animation-fill-mode: forwards;
     /* border: 1px solid hwb(0 10% 16%); */
 }
+
 @keyframes lineaMovimiento {
     100% {
         width: 90%;
@@ -680,6 +682,14 @@ footer {
 
     .slide img {
         height: 60vh;
+    }
+
+    .imagen-principal h1 {
+        padding-left: 0px;
+    }
+
+    .imagen-principal p {
+        padding-left: 0px;
     }
 
     /*footer*/
