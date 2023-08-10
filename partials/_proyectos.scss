@@ -20,7 +20,68 @@
     }
 }
 
-.container{
+.container {
     padding-left: 10px;
     padding-right: 10px;
+
+    .row {
+        img {
+            width: 95%;
+        }
+
+        .bulnes {
+            transition: all 300ms;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: transparent;
+            }
+        }
+
+        .martinez {
+            transition: all 300ms;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: transparent;
+            }
+        }
+
+        .escobar {
+            transition: all 300ms;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: transparent;
+            }
+        }
+
+        .pilar {
+            transition: all 300ms;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: transparent;
+            }
+        }
+
+        .nuñez {
+            transition: all 300ms;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: transparent;
+            }
+        }
+
+        .recoleta {
+            transition: all 300ms;
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: transparent;
+            }
+        }
+    }
+
 }

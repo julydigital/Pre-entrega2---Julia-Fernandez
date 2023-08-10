@@ -1,6 +1,6 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Noto+Sans:wght@100 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Oxygen:wght@300 & display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@
 .navbar-brand {
   cursor: default;
 }
-
 .navbar-brand img {
   width: 80%;
   padding-left: 80px;
@@ -24,18 +23,75 @@
   padding-right: 110px;
 }
 
+.nav-link {
+  animation: bounce-in-bottom 1.1s both;
+}
+
+.nav-link1 {
+  animation-delay: 1seg;
+}
+
+.nav-link2 {
+  animation-delay: 2seg;
+}
+
+.nav-link3 {
+  animation-delay: 3seg;
+}
+
+.nav-link4 {
+  animation-delay: 4seg;
+}
+
+.nav-link5 {
+  animation-delay: 5seg;
+}
+
+@keyframes bounce-in-bottom {
+  0% {
+    transform: translateY(500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
 body {
   background-color: #100e0e;
 }
-
 body .imagen-principal {
   background-color: transparent;
 }
-
 body .imagen-principal img {
   padding-left: 100px;
 }
-
 body .imagen-principal h1 {
   font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 6px;
@@ -43,7 +99,6 @@ body .imagen-principal h1 {
   padding-left: 100px;
   background-color: transparent;
 }
-
 body .imagen-principal p {
   font-family: "Oxygen", sans-serif;
   letter-spacing: 3px;
@@ -65,17 +120,14 @@ body .imagen-principal p {
   grid-template-rows: 0.7fr 1.5fr 0.5 0.3fr;
   grid-template-areas: "box1    .      . " "box2   box3   box4" "box5   box3   box4" "box5    .        .";
 }
-
 .grid .box img {
   width: 100%;
 }
-
 .grid .box.box1 {
   grid-area: box1;
   padding-top: 60px;
   padding-left: 80px;
 }
-
 .grid .box.box1 h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
@@ -83,14 +135,12 @@ body .imagen-principal p {
   letter-spacing: 5px;
   font-weight: 600;
 }
-
 .grid .box.box2 {
   grid-area: box2;
   padding-right: 50px;
   padding-top: 60px;
   padding-left: 30px;
 }
-
 .grid .box.box2 p {
   color: #f6f8f9;
   font-size: 16px;
@@ -98,13 +148,11 @@ body .imagen-principal p {
   font-family: "Oxygen", sans-serif;
   line-height: 24px;
 }
-
 .grid .box.box3 {
   grid-area: box3;
   padding: 50px 10px 40px 40px;
   background-color: #191919;
 }
-
 .grid .box.box3 h4 {
   font-family: "Oxygen", sans-serif;
   font-size: 16px;
@@ -114,13 +162,11 @@ body .imagen-principal p {
   font-weight: 300;
   background-color: #191919;
 }
-
 .grid .box.box4 {
   grid-area: box4;
   padding: 50px 40px 40px 10px;
   background-color: #191919;
 }
-
 .grid .box.box4 h4 {
   font-family: "Oxygen", sans-serif;
   font-size: 16px;
@@ -130,15 +176,23 @@ body .imagen-principal p {
   font-weight: 300;
   background-color: #191919;
 }
-
 .grid .box.box5 {
   grid-area: box5;
   background-color: rgba(117, 114, 114, 0.8705882353);
   height: 1.4px;
-  max-width: 600px;
+  width: 1%;
   margin-left: 20px;
+  animation-name: lineaMovimiento;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
+@keyframes lineaMovimiento {
+  100% {
+    width: 90%;
+  }
+}
 .linea-superior {
   border-top: rgba(143, 138, 138, 0.8705882353) solid 1.5px;
   margin-right: 100px;
@@ -151,7 +205,6 @@ body .imagen-principal p {
   margin-right: 1000px;
   margin-left: 100px;
 }
-
 .titulo-servicios h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
@@ -165,7 +218,6 @@ body .imagen-principal p {
   padding-left: 100px;
   margin-right: 90px;
 }
-
 .contenedores .contenedor {
   flex: 1;
   display: flex;
@@ -174,11 +226,9 @@ body .imagen-principal p {
   gap: 5px;
   padding-top: 50px;
 }
-
 .contenedores .contenedor img {
   width: 90%;
 }
-
 .contenedores .contenedor h6 {
   font-family: "Oxygen", sans-serif;
   color: #f6f8f9;
@@ -186,7 +236,6 @@ body .imagen-principal p {
   font-weight: 300;
   text-align: center;
 }
-
 .contenedores .contenedor p {
   font-family: "Oxygen", sans-serif;
   color: #f6f8f9;
@@ -209,7 +258,6 @@ body .imagen-principal p {
   margin-left: 80px;
   padding-bottom: 5px;
 }
-
 .titulo-proyectos h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
@@ -222,6 +270,51 @@ body .imagen-principal p {
   padding-left: 10px;
   padding-right: 10px;
 }
+.container .row img {
+  width: 95%;
+}
+.container .row .bulnes {
+  transition: all 300ms;
+}
+.container .row .bulnes:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+}
+.container .row .martinez {
+  transition: all 300ms;
+}
+.container .row .martinez:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+}
+.container .row .escobar {
+  transition: all 300ms;
+}
+.container .row .escobar:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+}
+.container .row .pilar {
+  transition: all 300ms;
+}
+.container .row .pilar:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+}
+.container .row .nuñez {
+  transition: all 300ms;
+}
+.container .row .nuñez:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+}
+.container .row .recoleta {
+  transition: all 300ms;
+}
+.container .row .recoleta:hover {
+  transform: scale(1.1);
+  background-color: transparent;
+}
 
 .grid-contacto {
   padding-left: 100px;
@@ -231,7 +324,6 @@ body .imagen-principal p {
   grid-template-rows: 0.6fr 0.8fr 0.2fr;
   grid-template-areas: "zona-titulo   zona-formulario" "zona-titulo    zona-formulario" "zona-titulo      zona-mapa";
 }
-
 .grid-contacto .zona-titulo {
   grid-area: zona-titulo;
   padding-bottom: 20px;
@@ -241,7 +333,6 @@ body .imagen-principal p {
   position: relative;
   z-index: 0;
 }
-
 .grid-contacto .zona-titulo h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
@@ -253,7 +344,6 @@ body .imagen-principal p {
   margin-right: 90px;
   background-color: transparent;
 }
-
 .grid-contacto .zona-titulo::before {
   position: absolute;
   content: "";
@@ -264,13 +354,11 @@ body .imagen-principal p {
   background-color: rgba(0, 0, 0, 0.4705882353);
   z-index: -1;
 }
-
 .grid-contacto .zona-formulario {
   grid-area: zona-formulario;
   padding: 140px 100px;
   border: none;
 }
-
 .grid-contacto .zona-formulario .campo {
   font-family: "Oxygen", sans-serif;
   font-size: 15px;
@@ -285,7 +373,6 @@ body .imagen-principal p {
   padding-bottom: 10px;
   padding-top: 50px;
 }
-
 .grid-contacto .zona-formulario .enviar {
   font-family: "Oxygen", sans-serif;
   font-size: 15px;
@@ -298,7 +385,6 @@ body .imagen-principal p {
   margin: 30px 0px 0px 400px;
   cursor: pointer;
 }
-
 .grid-contacto .zona-mapa {
   grid-area: zona-mapa;
   padding-left: 100px;
@@ -310,13 +396,11 @@ footer {
   margin-left: 98px;
   margin-right: 98px;
 }
-
 footer .logo1 {
   width: 200px;
   padding-top: 20px;
   padding-left: 30px;
 }
-
 footer .contenedor-footer {
   display: flex;
   padding-top: 30px;
@@ -325,13 +409,11 @@ footer .contenedor-footer {
   padding-right: 40px;
   align-items: flex-end;
 }
-
 footer .contenedor-footer .informacion {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
 }
-
 footer .contenedor-footer .informacion p {
   color: #f6f8f9;
   font-family: "Oxygen", sans-serif;
@@ -339,21 +421,17 @@ footer .contenedor-footer .informacion p {
   margin-bottom: 0px;
   padding-bottom: 4px;
 }
-
 footer .contenedor-footer .informacion.info1 {
   text-align: left;
 }
-
 footer .contenedor-footer .informacion.info2 {
   text-align: end;
 }
-
 footer .linea-footer {
   border-top: rgba(93, 90, 90, 0.87) solid 0.5px;
   width: 97%;
   margin-left: 20px;
 }
-
 footer .barra-rrss {
   height: 70px;
   justify-content: end;
@@ -361,34 +439,28 @@ footer .barra-rrss {
   gap: 20px;
   padding-right: 50px;
 }
-
 footer .barra-rrss .redes-sociales {
   display: flex;
   padding-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
-
   /* header */
   .navbar-brand img {
     margin-left: -20px;
     width: 100%;
   }
-
   .collapse {
     margin-right: -20px;
   }
-
   .collapse .navbar-nav {
     align-items: flex-end;
     margin-right: 0px;
   }
-
   /* index */
   .slide img {
     height: 80vh;
   }
-
   /* footer */
   footer {
     padding-top: 50px;
@@ -396,52 +468,42 @@ footer .barra-rrss .redes-sociales {
     margin-left: 0px;
     text-align: center;
   }
-
   footer .logo1 {
     padding-left: 0px;
   }
-
   footer .contenedor-footer {
     flex-direction: column;
     padding-left: 0px;
     padding-right: 0px;
   }
-
   footer .contenedor-footer .informacion {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     width: 100%;
   }
-
   footer .contenedor-footer .informacion p {
     font-size: 18px;
     text-align: center;
   }
-
   footer .contenedor-footer .informacion.info1 p {
     font-size: 20px;
     padding-bottom: 50px;
   }
-
   footer .linea-footer {
     margin: 0px;
   }
-
   footer .barra-rrss {
     justify-content: center;
     padding-right: 0px;
   }
-
   footer .barra-rrss .redes-sociales {
     display: flex;
     padding-bottom: 30px;
   }
-
   .linea-superior {
     margin: 0px;
   }
-
   /* nosotros */
   .grid {
     width: 100%;
@@ -451,60 +513,56 @@ footer .barra-rrss .redes-sociales {
     padding: 0px;
     align-items: center;
   }
-
   .grid .box {
     width: 80%;
     align-items: center;
     margin: 0px;
   }
-
   .grid .box h4 {
     font-size: 18px;
   }
-
   .grid .box.box1 h1 {
     margin-left: -20px;
     padding-bottom: 0px;
     font-size: 40px;
   }
-
   .grid .box.box2 {
     padding-left: 0px;
     padding-right: 15px;
   }
-
   .grid .box.box2 p {
     font-size: 18px;
   }
-
   .grid .box.box4 {
     width: 80%;
     padding-left: 40px;
     padding-bottom: 20px;
     order: 2;
   }
-
   .grid .box.box3 {
     width: 80%;
     padding-right: 40px;
     padding-bottom: 20px;
   }
-
   .grid .box.box5 {
     width: 0px;
     order: 0;
+    margin-left: 0px;
+    margin-right: 0px;
   }
-
+  @keyframes lineaMovimiento {
+    100% {
+      width: 77%;
+    }
+  }
   /* servicios */
   .titulo-servicios {
     padding-bottom: 0px;
     padding-left: 40px;
   }
-
   .titulo-servicios h1 {
     font-size: 40px;
   }
-
   .contenedores {
     display: flex;
     flex-direction: column;
@@ -512,24 +570,19 @@ footer .barra-rrss .redes-sociales {
     padding: 0px;
     align-items: center;
   }
-
   .contenedores .contenedor p {
     width: 100%;
   }
-
   .contenedores .contenedor img {
     width: 110%;
   }
-
   /* proyectos */
   .titulo-proyectos {
     padding-left: 60px;
   }
-
   .titulo-proyectos h1 {
     font-size: 40px;
   }
-
   /* contacto */
   .grid-contacto {
     width: 100%;
@@ -538,12 +591,10 @@ footer .barra-rrss .redes-sociales {
     margin: 0px;
     padding: 0px;
   }
-
   .grid-contacto .zona {
     margin: 0px;
     padding: 0px;
   }
-
   .grid-contacto .zona-titulo h1 {
     padding-bottom: 100%;
     font-size: 40px;
@@ -551,131 +602,96 @@ footer .barra-rrss .redes-sociales {
     padding-left: 0px;
     margin-right: 200px;
   }
-
   .grid-contacto .zona-formulario {
     padding-left: 80px;
     padding-top: 40px;
     padding-bottom: 90px;
   }
-
   .grid-contacto .zona-formulario .campo {
     width: 80%;
   }
-
   .grid-contacto .zona-mapa {
     padding-left: 80px;
     margin: 0px;
   }
-
   .grid-contacto .zona-mapa iframe {
     width: 83%;
   }
 }
-
 @media screen and (max-width: 500px) {
-
   /* header */
   .navbar-brand img {
     padding-left: 20px;
   }
-
   .navbar-toggler {
     margin-right: 30px;
   }
-
   .navbar-nav {
     font-size: 20px;
   }
-
   /* index */
-  header {
-    flex-direction: column;
-  }
-
-  .imagen-principal img {
-    padding-left: 0px;
-  }
-
   .slide img {
     height: 60vh;
   }
-
-
   /*footer*/
   .info1 p {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
   }
-
   /*pagina nosotros*/
   .box1 h1 {
     margin-left: 0px;
     padding-left: 0px;
   }
-
   /*pagina servicios*/
   .titulo-servicios h1 {
     margin-left: -70px;
   }
-
   .contenedores {
     padding-left: 30px;
     padding-right: 30px;
   }
-
   .contenedores .contenedor p {
     width: 90%;
   }
-
   .contenedores .contenedor img {
     width: 100%;
   }
-
   /*pagina proyectos*/
   .titulo-proyectos h1 {
-    margin-left: -75px;
+    margin-left: 0px;
+    padding-left: 80px;
   }
-
   .container {
     width: 80%;
   }
-
-  .container .row {
+  .row {
     gap: 30px;
   }
-
   /*pagina contacto*/
   .grid-contacto {
     margin: 0px;
     padding: 0px;
   }
-
   .grid-contacto .zona-titulo h1 {
     margin-left: 0px;
     padding-left: 70px;
   }
-
   .grid-contacto .zona-formulario {
     padding-left: 45px;
   }
-
   .grid-contacto .zona-formulario .campo {
     width: 85%;
   }
-
   .grid-contacto .zona-formulario .enviar {
     margin: 0px;
     margin-top: 20px;
   }
-
   .grid-contacto .zona-mapa {
     padding-left: 30px;
   }
-
   .grid-contacto .zona-mapa iframe {
     width: 85%;
   }
-}
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */

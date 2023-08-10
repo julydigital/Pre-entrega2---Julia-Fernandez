@@ -135,7 +135,16 @@
             &.box5 {
                 width: 0px;
                 order: 0;
+                margin-left: 0px;
+                margin-right: 0px;
             }
+        }
+    }
+
+    @keyframes lineaMovimiento {
+
+        100% {
+            width: 77%;
         }
     }
 

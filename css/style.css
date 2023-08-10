@@ -10,14 +10,17 @@
 body {
     background-color: #100e0e;
 }
-/* barra de navegacion "nav"*/   
+
+/* barra de navegacion "nav"*/
 .navbar-brand {
     cursor: default;
 }
+
 .navbar-brand img {
     width: 80%;
     padding-left: 80px;
 }
+
 .navbar-collapse {
     display: flex;
     justify-content: end;
@@ -26,8 +29,8 @@ body {
 
 
 /*pagina index*/
-.imagen-principal  {
-   background-color: transparent;
+.imagen-principal {
+    background-color: transparent;
 }
 
 .imagen-principal img {
@@ -62,6 +65,7 @@ footer {
     padding-top: 20px;
     padding-left: 30px;
 }
+
 .contenedor-footer {
     display: flex;
     padding-top: 30px;
@@ -71,12 +75,14 @@ footer {
     align-items: flex-end;
     /*border: 1px solid rgb(92, 216, 25);*/
 }
+
 .informacion {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
     /* border: 1px solid rgb(105, 25, 216);*/
 }
+
 .informacion p {
     color: #ffffffe0;
     font-family: 'Oxygen', sans-serif;
@@ -85,14 +91,16 @@ footer {
     padding-bottom: 4px;
     /* border: 1px solid rgb(216, 25, 130);*/
 }
+
 .info1 {
     text-align: left;
 }
+
 .info2 {
     text-align: end;
 }
 
-.alineacion-footer-index{
+.alineacion-footer-index {
     text-align: end;
 }
 
@@ -101,6 +109,7 @@ footer {
     width: 97%;
     margin-left: 20px;
 }
+
 .barra-rrss {
     height: 70px;
     justify-content: end;
@@ -109,6 +118,7 @@ footer {
     padding-right: 50px;
     /* border: 1px solid hsl(132, 79%, 47%);*/
 }
+
 .redes-sociales {
     display: flex;
     padding-bottom: 30px;
@@ -134,9 +144,11 @@ footer {
         "box5    .        .";
     /* border: 1px solid hsl(132, 79%, 47%);*/
 }
+
 .box img {
     width: 100%;
 }
+
 .box h4 {
     font-family: 'Oxygen', sans-serif;
     font-size: 16px;
@@ -145,6 +157,7 @@ footer {
     line-height: 20px;
     font-weight: 300;
 }
+
 .box1 h1 {
     grid-area: box1;
     font-family: 'Noto Sans JP', sans-serif;
@@ -157,6 +170,7 @@ footer {
     margin-right: 90px;
     /*border: 1px solid #ced819;*/
 }
+
 .box2 {
     grid-area: box2;
     color: #ffffffe0;
@@ -169,27 +183,38 @@ footer {
     padding-left: 30px;
     /* border: 1px solid #ed9d1c;*/
 }
+
 .box3 {
     grid-area: box3;
     padding: 50px 10px 40px 40px;
     background-color: #191919;
     /*  border: 1px solid hsl(335, 79%, 47%);*/
 }
+
 .box4 {
     grid-area: box4;
     padding: 50px 40px 40px 10px;
     background-color: #191919;
     /* border: 1px solid hwb(196 10% 16%);*/
 }
+
 .box5 {
     grid-area: box5;
     background-color: #757272de;
     height: 1.4px;
     max-width: 600px;
     margin-left: 20px;
+    animation-name: lineaMovimiento;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
     /* border: 1px solid hwb(0 10% 16%); */
 }
-
+@keyframes lineaMovimiento {
+    100% {
+        width: 90%;
+    }
+}
 
 
 /*pagina servicios*/
@@ -204,12 +229,14 @@ footer {
     margin-right: 1000px;
     margin-left: 100px;
 }
+
 .contenedores {
     display: flex;
     padding-left: 100px;
     margin-right: 90px;
     /*  border: 1px solid #d81923;*/
 }
+
 .contenedor {
     flex: 1;
     display: flex;
@@ -219,9 +246,11 @@ footer {
     padding-top: 50px;
     /*  border: 1px solid #192fd8;*/
 }
+
 .contenedor img {
     width: 90%;
 }
+
 .contenedor h6 {
     font-family: 'Oxygen', sans-serif;
     color: #ffffffe0;
@@ -229,6 +258,7 @@ footer {
     font-weight: 300;
     text-align: center;
 }
+
 .contenedor p {
     font-family: 'Oxygen', sans-serif;
     color: #ffffffe0;
@@ -252,12 +282,77 @@ footer {
     margin-left: 100px;
 }
 
-.container{
+.container {
     padding-left: 10px;
     padding-right: 10px;
 }
 
+.row img {
+    width: 95%;
+}
 
+.bulnes {
+    transition: all 300ms;
+}
+
+.bulnes:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.martinez {
+    transition: all 300ms;
+}
+
+.martinez:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.escobar {
+    transition: all 300ms;
+}
+
+.escobar:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.pilar {
+    transition: all 300ms;
+}
+
+.pilar:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.nuñez {
+    transition: all 300ms;
+}
+
+.nuñez:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.pilar {
+    transition: all 300ms;
+}
+
+.pilar:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.recoleta {
+    transition: all 300ms;
+}
+
+.recoleta:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
 
 /*pagina contacto*/
 .grid-contacto {
@@ -272,6 +367,7 @@ footer {
         "zona-titulo      zona-mapa";
     /* border: 1px solid rgb(216, 25, 133);*/
 }
+
 .zona-titulo {
     grid-area: zona-titulo;
     padding-bottom: 20px;
@@ -281,6 +377,7 @@ footer {
     position: relative;
     z-index: 0;
 }
+
 .zona-titulo h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 50px;
@@ -291,6 +388,7 @@ footer {
     padding-left: 80px;
     margin-right: 90px;
 }
+
 .zona-titulo ::before {
     position: absolute;
     content: "";
@@ -301,12 +399,14 @@ footer {
     background-color: #00000078;
     z-index: -1;
 }
+
 .zona-formulario {
     grid-area: zona-formulario;
     padding: 140px 100px;
     border: none;
     /*border: 1px solid #d81919;*/
 }
+
 .campo {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
@@ -321,6 +421,7 @@ footer {
     padding-bottom: 10px;
     padding-top: 50px;
 }
+
 .enviar {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
@@ -333,6 +434,7 @@ footer {
     margin: 30px 0px 0px 400px;
     cursor: pointer;
 }
+
 .zona-mapa {
     grid-area: zona-mapa;
     padding-left: 100px;
@@ -342,24 +444,29 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-   /* barra de navegacion "nav"*/
+
+    /* barra de navegacion "nav"*/
     .navbar-brand img {
         margin-left: -20px;
         width: 100%;
         /*border: 1px solid #3919d8; */
     }
+
     .navbar-nav {
         align-items: flex-end;
         margin-right: 0px;
         /*border: 1px solid #3919d8; */
     }
+
     .collapse {
         margin-right: -20px;
     }
+
     /*pagina index*/
     .slide img {
         height: 80vh;
     }
+
     /*footer*/
     footer {
         padding-top: 50px;
@@ -367,11 +474,13 @@ footer {
         margin-left: 0px;
         text-align: center;
     }
+
     .contenedor-footer {
         flex-direction: column;
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .informacion {
         flex-grow: 1;
         flex-shrink: 1;
@@ -379,34 +488,42 @@ footer {
         width: 100%;
         text-align: center;
     }
+
     .informacion p {
         font-size: 18px;
     }
+
     .info1 p {
         font-size: 20px;
         padding-bottom: 50px;
     }
+
     .logo1 {
         padding-left: 0px;
         /*border: 1px solid #d8192f; */
     }
+
     .linea-footer {
         margin: 0px;
     }
+
     .barra-rrss {
         justify-content: center;
         padding-right: 0px;
         /*border: 1px solid #d8192f; */
     }
+
     .redes-sociales {
         display: flex;
         padding-bottom: 30px;
         /*border: 1px solid #d8192f; */
     }
+
     /*pagina nosotros*/
     .linea-superior {
         margin: 0px;
     }
+
     .grid {
         width: 100%;
         display: flex;
@@ -415,14 +532,17 @@ footer {
         padding: 0px;
         align-items: center;
     }
+
     .box {
         width: 80%;
         align-items: center;
         margin: 0px;
     }
+
     .box h4 {
         font-size: 18px;
     }
+
     .box1 h1 {
         padding-top: 60px;
         padding-bottom: 20px;
@@ -430,35 +550,45 @@ footer {
         padding-left: 0px;
         font-size: 40px;
     }
+
     .box2 {
         padding-left: 0px;
         padding-right: 15px;
     }
+
     .box2 p {
         font-size: 18px;
     }
+
     .box4 {
         width: 80%;
         padding-left: 40px;
         padding-bottom: 20px;
         order: 2;
     }
+
     .box3 {
         width: 80%;
         padding-right: 40px;
         padding-bottom: 20px;
     }
+
     .box5 {
         width: 0px;
         order: 0;
+        margin-left: 0px;
+        margin-right: 0px;
     }
+
     /*pagina servicios*/
     .titulo-servicios {
         padding-bottom: 40px;
     }
+
     .titulo-servicios h1 {
         font-size: 40px;
     }
+
     .contenedores {
         display: flex;
         flex-direction: column;
@@ -466,11 +596,12 @@ footer {
         padding: 0px;
         align-items: center;
     }
-    
+
     /*pagina proyectos*/
     .titulo-proyectos h1 {
         font-size: 40px;
     }
+
     /*pagina contacto*/
     .grid-contacto {
         width: 100%;
@@ -479,31 +610,38 @@ footer {
         margin: 0px;
         padding: 0px;
     }
+
     .zona {
         margin: 0px;
         padding: 0px;
     }
+
     .zona-titulo {
         padding-bottom: 100%;
     }
+
     .zona-titulo h1 {
         font-size: 40px;
         margin-left: 150px;
         padding-left: 0px;
         margin-right: 200px;
     }
+
     .zona-formulario {
         padding-left: 80px;
         padding-top: 40px;
         padding-bottom: 90px;
     }
+
     .campo {
         width: 80%;
     }
+
     .zona-mapa {
         padding-left: 80px;
         margin: 0px;
     }
+
     iframe {
         width: 83%;
     }
@@ -512,70 +650,87 @@ footer {
 
 
 @media screen and (max-width: 500px) {
-  /* barra de navegacion "nav"*/
+
+    /* barra de navegacion "nav"*/
     .navbar-brand img {
         margin-right: 0px;
         padding-left: 0px;
         /*border: 1px solid #3919d8; */
     }
+
     .navbar-toggler img {
         padding: 0px;
         margin-right: 140px;
         /* border: 1px solid #d8192f; */
     }
+
     .navbar-nav {
         font-size: 20px;
         /*border: 1px solid #3919d8; */
     }
+
     /*pagina index*/
     header {
         flex-direction: column;
     }
+
     .imagen-principal img {
         padding-left: 0px;
     }
+
     .slide img {
         height: 60vh;
     }
+
     /*footer*/
     /*pagina nosotros*/
     .box1 h1 {
         margin-left: 0px;
         padding-left: 30px;
     }
+
     /*pagina servicios*/
     .titulo-servicios h1 {
         margin-left: 0px;
     }
+
     /*pagina proyectos*/
     .titulo-proyectos h1 {
         margin-left: 0px;
         padding-left: 80px;
     }
+
     .container {
         width: 80%;
     }
+
     .row {
         gap: 30px;
     }
+
     /*pagina contacto*/
     .zona-titulo h1 {
         margin-left: 70px;
         padding-left: 0px;
     }
+
     .zona-formulario {
         padding-left: 30px;
     }
+
     .campo {
         width: 95%;
     }
+
     input.enviar {
         margin: 0px;
         margin-top: 30px;
     }
+
     .zona-mapa {
         padding-left: 30px;
     }
+
     iframe {
         width: 90%;
     }
