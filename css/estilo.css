@@ -633,14 +633,14 @@ footer .barra-rrss .redes-sociales {
   .imagen-principal img {
     padding-left: 0px;
   }
-  .imagen-principal img .slide {
-    height: 60vh;
-  }
   .imagen-principal h1 {
     padding-left: 0px;
   }
   .imagen-principal p {
     padding-left: 0px;
+  }
+  .slide img {
+    height: 60vh;
   }
   /*footer*/
   .info1 p {

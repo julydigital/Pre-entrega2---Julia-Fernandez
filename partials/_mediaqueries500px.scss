@@ -20,10 +20,6 @@
     .imagen-principal {
         img {
             padding-left: 0px;
-
-            .slide {
-                height: 60vh;
-            }
         }
 
         h1 {
@@ -35,7 +31,12 @@
         }
     }
 
-    
+    .slide img {
+        height: 60vh;
+    }
+
+
+
     /*footer*/
     .info1 {
         p {
