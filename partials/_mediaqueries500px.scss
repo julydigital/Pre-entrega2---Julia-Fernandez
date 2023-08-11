@@ -17,10 +17,9 @@
 
 
     /* index */
-    .imagen-principal {
-        img {
-            padding-left: 0px;
-        }
+
+    body {
+        padding-left: 0px;
 
         h1 {
             padding-left: 0px;
@@ -29,12 +28,18 @@
         p {
             padding-left: 0px;
         }
-    }
 
-    .slide img {
-        height: 60vh;
-    }
+        .imagen-principal {
+            img {
+                padding-left: 0px;
 
+                .slide {
+                    height: 60vh;
+                }
+            }
+
+        }
+    }
 
 
     /*footer*/

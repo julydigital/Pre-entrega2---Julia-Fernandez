@@ -630,16 +630,19 @@ footer .barra-rrss .redes-sociales {
     font-size: 20px;
   }
   /* index */
-  .imagen-principal img {
+  body {
     padding-left: 0px;
   }
-  .imagen-principal h1 {
+  body h1 {
     padding-left: 0px;
   }
-  .imagen-principal p {
+  body p {
     padding-left: 0px;
   }
-  .slide img {
+  body .imagen-principal img {
+    padding-left: 0px;
+  }
+  body .imagen-principal img .slide {
     height: 60vh;
   }
   /*footer*/
