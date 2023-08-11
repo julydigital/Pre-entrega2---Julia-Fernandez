@@ -458,8 +458,8 @@ footer .barra-rrss .redes-sociales {
     margin-right: 0px;
   }
   /* index */
-  .slide img {
-    height: 80vh;
+  h1 {
+    margin-top: 0px;
   }
   /* footer */
   footer {
@@ -633,17 +633,15 @@ footer .barra-rrss .redes-sociales {
   body {
     padding-left: 0px;
   }
-  body h1 {
-    padding-left: 0px;
-  }
-  body p {
-    padding-left: 0px;
-  }
   body .imagen-principal img {
     padding-left: 0px;
   }
-  body .imagen-principal img .slide {
-    height: 60vh;
+  body .imagen-principal h1 {
+    margin-top: 0PX;
+    padding-left: 0px;
+  }
+  body .imagen-principal p {
+    padding-left: 0px;
   }
   /*footer*/
   .info1 p {

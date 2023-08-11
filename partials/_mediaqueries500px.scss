@@ -21,23 +21,19 @@
     body {
         padding-left: 0px;
 
-        h1 {
-            padding-left: 0px;
-        }
-
-        p {
-            padding-left: 0px;
-        }
-
         .imagen-principal {
             img {
                 padding-left: 0px;
-
-                .slide {
-                    height: 60vh;
-                }
             }
 
+            h1 {
+                margin-top: 0PX;
+                padding-left: 0px;
+            }
+
+            p {
+                padding-left: 0px;
+            }
         }
     }
 
