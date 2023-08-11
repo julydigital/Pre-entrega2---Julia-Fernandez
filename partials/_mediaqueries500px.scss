@@ -21,21 +21,24 @@
     body {
         padding-left: 0px;
 
-        .imagen-principal {
-            img {
-                padding-left: 0px;
-            }
-
-            h1 {
-                margin-top: 0PX;
-                padding-left: 0px;
-            }
-
-            p {
-                padding-left: 0px;
+        .imagen-principal img {
+            padding-top: 20px;
+            padding-left: 0px;
+    
+            .slide img {
+                height: 30vh;
             }
         }
-    }
+    
+        .imagen-principal h1 {
+            padding-top: 80px;
+            padding-left: 0px;
+        }
+    
+        .imagen-principal p {
+            padding-left: 0px;
+        }
+    }    
 
 
     /*footer*/

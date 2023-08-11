@@ -107,7 +107,7 @@ body .imagen-principal p {
 }
 
 .linea-superior {
-  border-top: rgba(143, 138, 138, 0.8705882353) solid 1.5px;
+  border-top: rgba(93, 90, 90, 0.87) solid 0.5px;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -131,7 +131,6 @@ body .imagen-principal p {
 .grid .box.box1 h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
-  color: #f6f8f9;
   letter-spacing: 5px;
   font-weight: 600;
 }
@@ -142,7 +141,6 @@ body .imagen-principal p {
   padding-left: 30px;
 }
 .grid .box.box2 p {
-  color: #f6f8f9;
   font-size: 16px;
   font-weight: 100;
   font-family: "Oxygen", sans-serif;
@@ -151,7 +149,7 @@ body .imagen-principal p {
 .grid .box.box3 {
   grid-area: box3;
   padding: 50px 10px 40px 40px;
-  background-color: #191919;
+  background-color: #100e0e;
 }
 .grid .box.box3 h4 {
   font-family: "Oxygen", sans-serif;
@@ -160,12 +158,12 @@ body .imagen-principal p {
   padding-top: 10px;
   line-height: 20px;
   font-weight: 300;
-  background-color: #191919;
+  background-color: #100e0e;
 }
 .grid .box.box4 {
   grid-area: box4;
   padding: 50px 40px 40px 10px;
-  background-color: #191919;
+  background-color: #100e0e;
 }
 .grid .box.box4 h4 {
   font-family: "Oxygen", sans-serif;
@@ -174,7 +172,7 @@ body .imagen-principal p {
   padding-top: 10px;
   line-height: 20px;
   font-weight: 300;
-  background-color: #191919;
+  background-color: #100e0e;
 }
 .grid .box.box5 {
   grid-area: box5;
@@ -194,7 +192,7 @@ body .imagen-principal p {
   }
 }
 .linea-superior {
-  border-top: rgba(143, 138, 138, 0.8705882353) solid 1.5px;
+  border-top: rgba(93, 90, 90, 0.87) solid 0.5px;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -208,7 +206,6 @@ body .imagen-principal p {
 .titulo-servicios h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
-  color: #f6f8f9;
   letter-spacing: 5px;
   font-weight: 600;
 }
@@ -231,14 +228,12 @@ body .imagen-principal p {
 }
 .contenedores .contenedor h6 {
   font-family: "Oxygen", sans-serif;
-  color: #f6f8f9;
   letter-spacing: 1px;
   font-weight: 300;
   text-align: center;
 }
 .contenedores .contenedor p {
   font-family: "Oxygen", sans-serif;
-  color: #f6f8f9;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
@@ -246,7 +241,7 @@ body .imagen-principal p {
 }
 
 .linea-superior {
-  border-top: rgba(143, 138, 138, 0.8705882353) solid 1.5px;
+  border-top: rgba(93, 90, 90, 0.87) solid 0.5px;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -261,7 +256,6 @@ body .imagen-principal p {
 .titulo-proyectos h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
-  color: #f6f8f9;
   letter-spacing: 5px;
   font-weight: 600;
 }
@@ -336,7 +330,6 @@ body .imagen-principal p {
 .grid-contacto .zona-titulo h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 50px;
-  color: #f6f8f9;
   letter-spacing: 5px;
   font-weight: 600;
   padding-top: 80px;
@@ -362,10 +355,8 @@ body .imagen-principal p {
 .grid-contacto .zona-formulario .campo {
   font-family: "Oxygen", sans-serif;
   font-size: 15px;
-  color: #f6f8f9;
   letter-spacing: 1.5px;
   font-weight: 300;
-  background-color: #100e0e;
   width: 100%;
   border: none;
   border-bottom: 1px solid hsl(0, 1%, 46%);
@@ -376,10 +367,8 @@ body .imagen-principal p {
 .grid-contacto .zona-formulario .enviar {
   font-family: "Oxygen", sans-serif;
   font-size: 15px;
-  color: #f6f8f9;
   letter-spacing: 1.5px;
   font-weight: 300;
-  background-color: #100e0e;
   border: 1px solid hsl(0, 1%, 46%);
   padding: 10px 10px 10px 10px;
   margin: 30px 0px 0px 400px;
@@ -415,7 +404,6 @@ footer .contenedor-footer .informacion {
   flex-basis: auto;
 }
 footer .contenedor-footer .informacion p {
-  color: #f6f8f9;
   font-family: "Oxygen", sans-serif;
   font-size: 13px;
   margin-bottom: 0px;
@@ -458,8 +446,8 @@ footer .barra-rrss .redes-sociales {
     margin-right: 0px;
   }
   /* index */
-  h1 {
-    margin-top: 0px;
+  .imagen-principal .slide img {
+    height: 60vh;
   }
   /* footer */
   footer {
@@ -634,10 +622,14 @@ footer .barra-rrss .redes-sociales {
     padding-left: 0px;
   }
   body .imagen-principal img {
+    padding-top: 20px;
     padding-left: 0px;
   }
+  body .imagen-principal img .slide img {
+    height: 30vh;
+  }
   body .imagen-principal h1 {
-    margin-top: 0PX;
+    padding-top: 80px;
     padding-left: 0px;
   }
   body .imagen-principal p {

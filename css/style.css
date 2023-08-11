@@ -465,8 +465,12 @@ footer {
     }
 
     /*pagina index*/
-    
-    
+    .slide img {
+        height: 60vh;
+    }
+
+
+
     /*footer*/
     footer {
         padding-top: 50px;
@@ -675,10 +679,16 @@ footer {
     }
 
     .imagen-principal img {
+        padding-top: 20px;
         padding-left: 0px;
+
+        .slide img {
+            height: 30vh;
+        }
     }
 
     .imagen-principal h1 {
+        padding-top: 80px;
         padding-left: 0px;
     }
 

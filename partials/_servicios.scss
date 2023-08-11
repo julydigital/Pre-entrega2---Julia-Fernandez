@@ -1,5 +1,5 @@
 .linea-superior {
-    border-top: #8f8a8ade solid 1.5px;
+    border-top: $lineaHorizontal;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -13,8 +13,7 @@
     h1 {
         font-family: $fontNoto;
         font-size: 50px;
-        color: $tipografiaColor;
-        letter-spacing: 5px;
+       letter-spacing: 5px;
         font-weight: 600;
     }
 }
@@ -38,7 +37,6 @@
 
         h6 {
             font-family: $fontOxygen;
-            color: $tipografiaColor;
             letter-spacing: 1px;
             font-weight: 300;
             text-align: center;
@@ -46,7 +44,6 @@
 
         p {
             font-family: $fontOxygen;
-            color: $tipografiaColor;
             font-size: 15px;
             line-height: 20px;
             text-align: center;
