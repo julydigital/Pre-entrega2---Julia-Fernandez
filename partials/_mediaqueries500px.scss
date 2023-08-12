@@ -24,21 +24,21 @@
         .imagen-principal img {
             padding-top: 20px;
             padding-left: 0px;
-    
+
             .slide img {
                 height: 30vh;
             }
         }
-    
+
         .imagen-principal h1 {
             padding-top: 80px;
             padding-left: 0px;
         }
-    
+
         .imagen-principal p {
             padding-left: 0px;
         }
-    }    
+    }
 
 
     /*footer*/
@@ -87,14 +87,13 @@
         padding-left: 0px;
     }
 
-    .container {
-        width: 80%;
-    }
-
     .row {
         gap: 30px;
-    }
 
+        img {
+            padding-left: 10px;
+        }
+    }
 
 
     /*pagina contacto*/

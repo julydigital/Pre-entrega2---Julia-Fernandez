@@ -321,7 +321,7 @@ footer {
     background-color: transparent;
 }
 
-.obra:hover .obra-titulo{
+.obra:hover .obra-titulo {
     opacity: 1;
     visibility: visible;
 }
@@ -684,13 +684,14 @@ footer {
         padding-left: 80px;
     }
 
-    .container {
-        width: 80%;
-    }
-
     .row {
         gap: 30px;
     }
+
+    .row img {
+        padding-left: 10px;
+    }
+
 
     /*pagina contacto*/
     .zona-titulo h1 {
