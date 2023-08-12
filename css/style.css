@@ -293,67 +293,37 @@ footer {
     width: 95%;
 }
 
-.bulnes {
-    transition: all 300ms;
+.obra-titulo {
+    position: absolute;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.878);
+    top: 0;
+    bottom: -16px;
+    left: 10px;
+    right: 32px;
+    background-color: hsla(0, 0%, 1%, 0.489);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
 }
 
-.bulnes:hover {
+.obra {
+    transition: all 300ms;
+    position: relative;
+}
+
+.obra:hover {
     transform: scale(1.1);
     background-color: transparent;
 }
 
-.martinez {
-    transition: all 300ms;
-}
-
-.martinez:hover {
-    transform: scale(1.1);
-    background-color: transparent;
-}
-
-.escobar {
-    transition: all 300ms;
-}
-
-.escobar:hover {
-    transform: scale(1.1);
-    background-color: transparent;
-}
-
-.pilar {
-    transition: all 300ms;
-}
-
-.pilar:hover {
-    transform: scale(1.1);
-    background-color: transparent;
-}
-
-.nuñez {
-    transition: all 300ms;
-}
-
-.nuñez:hover {
-    transform: scale(1.1);
-    background-color: transparent;
-}
-
-.pilar {
-    transition: all 300ms;
-}
-
-.pilar:hover {
-    transform: scale(1.1);
-    background-color: transparent;
-}
-
-.recoleta {
-    transition: all 300ms;
-}
-
-.recoleta:hover {
-    transform: scale(1.1);
-    background-color: transparent;
+.obra:hover .obra-titulo{
+    opacity: 1;
+    visibility: visible;
 }
 
 /*pagina contacto*/

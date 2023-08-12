@@ -1,5 +1,5 @@
 .linea-superior {
-    border-top: $lineaHorizontal;
+    border-top: #8f8a8ade solid 1.5px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -53,7 +53,7 @@
         &.box3 {
             grid-area: box3;
             padding: 50px 10px 40px 40px;
-            background-color: $bodyColor;
+            background-color: $fondoImagenArq;
 
             h4 {
                 font-family: $fontOxygen;
@@ -62,14 +62,14 @@
                 padding-top: 10px;
                 line-height: 20px;
                 font-weight: 300;
-                background-color: $bodyColor;
+                background-color:$fondoImagenArq;
             }
         }
 
         &.box4 {
             grid-area: box4;
             padding: 50px 40px 40px 10px;
-            background-color: $bodyColor;
+            background-color: $fondoImagenArq;
 
             h4 {
                 font-family: $fontOxygen;
@@ -78,7 +78,7 @@
                 padding-top: 10px;
                 line-height: 20px;
                 font-weight: 300;
-                background-color: $bodyColor;
+                background-color: $fondoImagenArq;
             }
         }
 

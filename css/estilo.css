@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family= Noto+Sans:wght@100 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Oxygen:wght@300 & display=swap");
 * {
@@ -107,7 +106,7 @@ body .imagen-principal p {
 }
 
 .linea-superior {
-  border-top: rgba(93, 90, 90, 0.87) solid 0.5px;
+  border-top: rgba(143, 138, 138, 0.8705882353) solid 1.5px;
   margin-right: 100px;
   margin-left: 100px;
 }
@@ -149,7 +148,7 @@ body .imagen-principal p {
 .grid .box.box3 {
   grid-area: box3;
   padding: 50px 10px 40px 40px;
-  background-color: #100e0e;
+  background-color: #191919;
 }
 .grid .box.box3 h4 {
   font-family: "Oxygen", sans-serif;
@@ -158,12 +157,12 @@ body .imagen-principal p {
   padding-top: 10px;
   line-height: 20px;
   font-weight: 300;
-  background-color: #100e0e;
+  background-color: #191919;
 }
 .grid .box.box4 {
   grid-area: box4;
   padding: 50px 40px 40px 10px;
-  background-color: #100e0e;
+  background-color: #191919;
 }
 .grid .box.box4 h4 {
   font-family: "Oxygen", sans-serif;
@@ -172,7 +171,7 @@ body .imagen-principal p {
   padding-top: 10px;
   line-height: 20px;
   font-weight: 300;
-  background-color: #100e0e;
+  background-color: #191919;
 }
 .grid .box.box5 {
   grid-area: box5;
@@ -267,47 +266,36 @@ body .imagen-principal p {
 .container .row img {
   width: 95%;
 }
-.container .row .bulnes {
-  transition: all 300ms;
+.container .row .obra-titulo {
+  position: absolute;
+  top: 0;
+  bottom: -16px;
+  left: 10px;
+  right: 32px;
+  background-color: hsla(0, 0%, 1%, 0.489);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
 }
-.container .row .bulnes:hover {
+.container .row .obra-titulo p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 20px;
+  color: #f6f8f9;
+}
+.container .row .obra {
+  transition: all 300ms;
+  position: relative;
+}
+.container .row .obra:hover {
   transform: scale(1.1);
   background-color: transparent;
 }
-.container .row .martinez {
-  transition: all 300ms;
-}
-.container .row .martinez:hover {
-  transform: scale(1.1);
-  background-color: transparent;
-}
-.container .row .escobar {
-  transition: all 300ms;
-}
-.container .row .escobar:hover {
-  transform: scale(1.1);
-  background-color: transparent;
-}
-.container .row .pilar {
-  transition: all 300ms;
-}
-.container .row .pilar:hover {
-  transform: scale(1.1);
-  background-color: transparent;
-}
-.container .row .nuñez {
-  transition: all 300ms;
-}
-.container .row .nuñez:hover {
-  transform: scale(1.1);
-  background-color: transparent;
-}
-.container .row .recoleta {
-  transition: all 300ms;
-}
-.container .row .recoleta:hover {
-  transform: scale(1.1);
-  background-color: transparent;
+.container .row .obra:hover .obra-titulo {
+  opacity: 1;
+  visibility: visible;
 }
 
 .grid-contacto {
