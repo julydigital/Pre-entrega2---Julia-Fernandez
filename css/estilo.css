@@ -9,7 +9,7 @@
 }
 
 .navbar-brand {
-  cursor: default;
+  cursor: pointer;
 }
 .navbar-brand img {
   width: 80%;

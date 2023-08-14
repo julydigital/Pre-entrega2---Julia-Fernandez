@@ -13,7 +13,7 @@ body {
 
 /* barra de navegacion "nav"*/
 .navbar-brand {
-    cursor: default;
+    cursor: pointer;
 }
 
 .navbar-brand img {
