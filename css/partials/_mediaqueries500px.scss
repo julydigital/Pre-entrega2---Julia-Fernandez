@@ -44,7 +44,6 @@
     /*footer*/
     .info1 {
         p {
-            text-align: center;
             padding-left: 10px;
             padding-right: 10px;
         }
@@ -59,6 +58,10 @@
         }
     }
 
+    .box5 {
+        max-width: 80%;
+    }
+
 
     /*pagina servicios*/
     .titulo-servicios h1 {
@@ -68,18 +71,8 @@
     .contenedores {
         padding-left: 30px;
         padding-right: 30px;
-
-        .contenedor {
-            p {
-                width: 90%;
-            }
-
-            img {
-                width: 100%;
-            }
-        }
     }
-
+    
 
     /*pagina proyectos*/
     .titulo-proyectos h1 {

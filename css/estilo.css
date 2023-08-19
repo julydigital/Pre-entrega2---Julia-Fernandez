@@ -258,7 +258,6 @@ body .imagen-principal p {
   letter-spacing: 5px;
   font-weight: 600;
 }
-
 .container {
   padding-left: 10px;
   padding-right: 10px;
@@ -297,7 +296,6 @@ body .imagen-principal p {
   opacity: 1;
   visibility: visible;
 }
-
 .grid-contacto {
   padding-left: 100px;
   width: 92%;
@@ -413,11 +411,12 @@ footer .barra-rrss {
   justify-content: end;
   display: flex;
   gap: 20px;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 footer .barra-rrss .redes-sociales {
   display: flex;
   padding-bottom: 30px;
+  width: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -439,7 +438,6 @@ footer .barra-rrss .redes-sociales {
   }
   /* footer */
   footer {
-    padding-top: 50px;
     margin-right: 0px;
     margin-left: 0px;
     text-align: center;
@@ -453,10 +451,7 @@ footer .barra-rrss .redes-sociales {
     padding-right: 0px;
   }
   footer .contenedor-footer .informacion {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
-    width: 100%;
+   width: 100%;
   }
   footer .contenedor-footer .informacion p {
     font-size: 18px;
@@ -472,10 +467,6 @@ footer .barra-rrss .redes-sociales {
   footer .barra-rrss {
     justify-content: center;
     padding-right: 0px;
-  }
-  footer .barra-rrss .redes-sociales {
-    display: flex;
-    padding-bottom: 30px;
   }
   .linea-superior {
     margin: 0px;
@@ -545,12 +536,14 @@ footer .barra-rrss .redes-sociales {
     margin: 0px;
     padding: 0px;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .contenedores .contenedor p {
     width: 100%;
   }
   .contenedores .contenedor img {
-    width: 110%;
+    width: 100%;
   }
   /* proyectos */
   .titulo-proyectos {
@@ -625,7 +618,6 @@ footer .barra-rrss .redes-sociales {
   }
   /*footer*/
   .info1 p {
-    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -641,12 +633,6 @@ footer .barra-rrss .redes-sociales {
   .contenedores {
     padding-left: 30px;
     padding-right: 30px;
-  }
-  .contenedores .contenedor p {
-    width: 90%;
-  }
-  .contenedores .contenedor img {
-    width: 100%;
   }
   /*pagina proyectos*/
   .titulo-proyectos h1 {

@@ -116,13 +116,14 @@ footer {
     justify-content: end;
     display: flex;
     gap: 20px;
-    padding-right: 50px;
+    padding-right: 30px;
     /* border: 1px solid hsl(132, 79%, 47%);*/
 }
 
 .redes-sociales {
     display: flex;
     padding-bottom: 30px;
+    width: 40px;
 }
 
 .linea-superior {
@@ -443,7 +444,6 @@ footer {
 
     /*footer*/
     footer {
-        padding-top: 50px;
         margin-right: 0px;
         margin-left: 0px;
         text-align: center;
@@ -456,15 +456,12 @@ footer {
     }
 
     .informacion {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: auto;
         width: 100%;
-        text-align: center;
     }
 
     .informacion p {
         font-size: 18px;
+        text-align: center;
     }
 
     .info1 p {
@@ -487,12 +484,7 @@ footer {
         /*border: 1px solid #d8192f; */
     }
 
-    .redes-sociales {
-        display: flex;
-        padding-bottom: 30px;
-        /*border: 1px solid #d8192f; */
-    }
-
+  
     /*pagina nosotros*/
     .linea-superior {
         margin: 0px;
@@ -569,7 +561,10 @@ footer {
         margin: 0px;
         padding: 0px;
         align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
 
     /*pagina proyectos*/
     .titulo-proyectos h1 {
@@ -667,15 +662,30 @@ footer {
     }
 
     /*footer*/
+    .info1 {
+        p {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
     /*pagina nosotros*/
     .box1 h1 {
         margin-left: 0px;
         padding-left: 30px;
     }
 
+    .box5 {
+        max-width: 80%;
+    }
+
     /*pagina servicios*/
     .titulo-servicios h1 {
         margin-left: 0px;
+    }
+
+    .contenedores {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     /*pagina proyectos*/
