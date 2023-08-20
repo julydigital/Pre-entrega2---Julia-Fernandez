@@ -420,27 +420,38 @@ footer {
 
     /* barra de navegacion "nav"*/
     .navbar-brand img {
-        margin-left: -20px;
-        width: 100%;
+        margin-right: 0px;
+        padding-left: 0px;
         /*border: 1px solid #3919d8; */
+    }
+
+    .navbar-toggler img {
+        padding: 0px;
+        margin-right: 140px;
+        /* border: 1px solid #d8192f; */
     }
 
     .navbar-nav {
-        align-items: flex-end;
-        margin-right: 0px;
-        /*border: 1px solid #3919d8; */
-    }
-
-    .collapse {
-        margin-right: -20px;
+        font-size: 20px;
     }
 
     /*pagina index*/
-    .slide img {
-        height: 60vh;
+    .imagen-principal img {
+        padding-left: 0px;
+
+        .slide img {
+            height: 60vh;
+        }
     }
 
+    .imagen-principal h1 {
+        padding-top: 80px;
+        padding-left: 0px;
+    }
 
+    .imagen-principal p {
+        padding-left: 0px;
+    }
 
     /*footer*/
     footer {
@@ -484,7 +495,7 @@ footer {
         /*border: 1px solid #d8192f; */
     }
 
-  
+
     /*pagina nosotros*/
     .linea-superior {
         margin: 0px;
@@ -512,8 +523,7 @@ footer {
     .box1 h1 {
         padding-top: 60px;
         padding-bottom: 20px;
-        margin-left: 90px;
-        padding-left: 0px;
+        margin-left: -60px;
         font-size: 40px;
     }
 
@@ -540,7 +550,7 @@ footer {
     }
 
     .box5 {
-        width: 0px;
+        max-width: 80%;
         order: 0;
         margin-left: 0px;
         margin-right: 0px;
@@ -548,11 +558,11 @@ footer {
 
     /*pagina servicios*/
     .titulo-servicios {
-        padding-bottom: 40px;
-    }
+        margin-left: -110px;
 
-    .titulo-servicios h1 {
-        font-size: 40px;
+        h1 {
+            font-size: 40px;
+        }
     }
 
     .contenedores {
@@ -565,11 +575,37 @@ footer {
         padding-right: 20px;
     }
 
+    .contenedor p {
+        width: 100%;
+    }
+
+    .contenedor img {
+        width: 100%;
+    }
+
 
     /*pagina proyectos*/
-    .titulo-proyectos h1 {
-        font-size: 40px;
+    .titulo-proyectos {
+        margin-left: -100px;
+
+        h1 {
+            font-size: 40px;
+        }
     }
+
+    .row {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-content: center;
+
+        .col-md-4 {
+            flex-direction: column;
+            width: 95%;
+            margin-left: 20px;
+        }
+    }
+
 
     /*pagina contacto*/
     .grid-contacto {
@@ -590,10 +626,10 @@ footer {
     }
 
     .zona-titulo h1 {
+        padding-bottom: 100%;
         font-size: 40px;
-        margin-left: 150px;
-        padding-left: 0px;
-        margin-right: 200px;
+        margin-left: 0px;
+        padding-left: 70px;
     }
 
     .zona-formulario {
@@ -604,6 +640,11 @@ footer {
 
     .campo {
         width: 80%;
+    }
+
+    .enviar {
+        margin: 0px;
+        margin-top: 20px;
     }
 
     .zona-mapa {
@@ -621,31 +662,9 @@ footer {
 @media screen and (max-width: 500px) {
 
     /* barra de navegacion "nav"*/
-    .navbar-brand img {
-        margin-right: 0px;
-        padding-left: 0px;
-        /*border: 1px solid #3919d8; */
-    }
-
-    .navbar-toggler img {
-        padding: 0px;
-        margin-right: 140px;
-        /* border: 1px solid #d8192f; */
-    }
-
-    .navbar-nav {
-        font-size: 20px;
-        /*border: 1px solid #3919d8; */
-    }
 
     /*pagina index*/
-    header {
-        flex-direction: column;
-    }
-
     .imagen-principal img {
-        padding-top: 20px;
-        padding-left: 0px;
 
         .slide img {
             height: 30vh;
@@ -653,13 +672,9 @@ footer {
     }
 
     .imagen-principal h1 {
-        padding-top: 80px;
-        padding-left: 0px;
+        padding-top: 100px;
     }
 
-    .imagen-principal p {
-        padding-left: 0px;
-    }
 
     /*footer*/
     .info1 {
@@ -668,58 +683,25 @@ footer {
             padding-right: 10px;
         }
     }
-    /*pagina nosotros*/
-    .box1 h1 {
-        margin-left: 0px;
-        padding-left: 30px;
-    }
 
-    .box5 {
-        max-width: 80%;
-    }
+
+    /*pagina nosotros*/
 
     /*pagina servicios*/
-    .titulo-servicios h1 {
-        margin-left: 0px;
-    }
-
     .contenedores {
         padding-left: 30px;
         padding-right: 30px;
     }
 
     /*pagina proyectos*/
-    .titulo-proyectos h1 {
-        margin-left: 0px;
-        padding-left: 80px;
-    }
-
-    .row {
-        gap: 30px;
-    }
-
-    .row img {
-        padding-left: 10px;
-    }
-
 
     /*pagina contacto*/
-    .zona-titulo h1 {
-        margin-left: 70px;
-        padding-left: 0px;
-    }
-
     .zona-formulario {
         padding-left: 30px;
     }
 
     .campo {
-        width: 95%;
-    }
-
-    input.enviar {
-        margin: 0px;
-        margin-top: 30px;
+        width: 85%;
     }
 
     .zona-mapa {
@@ -727,6 +709,6 @@ footer {
     }
 
     iframe {
-        width: 90%;
+        width: 85%;
     }
 }

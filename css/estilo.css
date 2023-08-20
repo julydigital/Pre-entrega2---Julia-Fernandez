@@ -4,8 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #100e0e;
   color: #f6f8f9;
+}
+
+body {
+  background-color: #100e0e;
 }
 
 .navbar-brand {
@@ -82,23 +85,20 @@
     animation-timing-function: ease-out;
   }
 }
-body {
-  background-color: #100e0e;
-}
-body .imagen-principal {
+.imagen-principal {
   background-color: transparent;
 }
-body .imagen-principal img {
+.imagen-principal img {
   padding-left: 100px;
 }
-body .imagen-principal h1 {
+.imagen-principal h1 {
   font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 6px;
   margin-top: -120px;
   padding-left: 100px;
   background-color: transparent;
 }
-body .imagen-principal p {
+.imagen-principal p {
   font-family: "Oxygen", sans-serif;
   letter-spacing: 3px;
   padding-left: 100px;
@@ -258,6 +258,7 @@ body .imagen-principal p {
   letter-spacing: 5px;
   font-weight: 600;
 }
+
 .container {
   padding-left: 10px;
   padding-right: 10px;
@@ -296,6 +297,7 @@ body .imagen-principal p {
   opacity: 1;
   visibility: visible;
 }
+
 .grid-contacto {
   padding-left: 100px;
   width: 92%;
@@ -349,6 +351,7 @@ body .imagen-principal p {
   outline: none;
   padding-bottom: 10px;
   padding-top: 50px;
+  background-color: #100e0e;
 }
 .grid-contacto .zona-formulario .enviar {
   font-family: "Oxygen", sans-serif;
@@ -358,6 +361,7 @@ body .imagen-principal p {
   border: 1px solid hsl(0, 1%, 46%);
   padding: 10px 10px 10px 10px;
   margin: 30px 0px 0px 400px;
+  background-color: #100e0e;
   cursor: pointer;
 }
 .grid-contacto .zona-mapa {
@@ -422,19 +426,29 @@ footer .barra-rrss .redes-sociales {
 @media screen and (max-width: 768px) {
   /* header */
   .navbar-brand img {
-    margin-left: -20px;
-    width: 100%;
-  }
-  .collapse {
-    margin-right: -20px;
-  }
-  .collapse .navbar-nav {
-    align-items: flex-end;
     margin-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-toggler img {
+    padding: 0px;
+    margin-right: 140px;
+  }
+  .navbar-nav {
+    font-size: 20px;
   }
   /* index */
-  .imagen-principal .slide img {
+  .imagen-principal img {
+    padding-left: 0px;
+  }
+  .imagen-principal img .slide img {
     height: 60vh;
+  }
+  .imagen-principal h1 {
+    padding-top: 80px;
+    padding-left: 0px;
+  }
+  .imagen-principal p {
+    padding-left: 0px;
   }
   /* footer */
   footer {
@@ -451,7 +465,7 @@ footer .barra-rrss .redes-sociales {
     padding-right: 0px;
   }
   footer .contenedor-footer .informacion {
-   width: 100%;
+    width: 100%;
   }
   footer .contenedor-footer .informacion p {
     font-size: 18px;
@@ -489,8 +503,7 @@ footer .barra-rrss .redes-sociales {
     font-size: 18px;
   }
   .grid .box.box1 h1 {
-    margin-left: -20px;
-    padding-bottom: 0px;
+    margin-left: -60px;
     font-size: 40px;
   }
   .grid .box.box2 {
@@ -512,7 +525,7 @@ footer .barra-rrss .redes-sociales {
     padding-bottom: 20px;
   }
   .grid .box.box5 {
-    width: 0px;
+    max-width: 80%;
     order: 0;
     margin-left: 0px;
     margin-right: 0px;
@@ -523,11 +536,8 @@ footer .barra-rrss .redes-sociales {
     }
   }
   /* servicios */
-  .titulo-servicios {
-    padding-bottom: 0px;
-    padding-left: 40px;
-  }
   .titulo-servicios h1 {
+    margin-left: -100px;
     font-size: 40px;
   }
   .contenedores {
@@ -546,11 +556,20 @@ footer .barra-rrss .redes-sociales {
     width: 100%;
   }
   /* proyectos */
-  .titulo-proyectos {
-    padding-left: 60px;
-  }
   .titulo-proyectos h1 {
+    margin-left: -100px;
     font-size: 40px;
+  }
+  .row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+  }
+  .row .col-md-4 {
+    flex-direction: column;
+    width: 95%;
+    margin-left: 20px;
   }
   /* contacto */
   .grid-contacto {
@@ -567,9 +586,8 @@ footer .barra-rrss .redes-sociales {
   .grid-contacto .zona-titulo h1 {
     padding-bottom: 100%;
     font-size: 40px;
-    margin-left: 150px;
-    padding-left: 0px;
-    margin-right: 200px;
+    margin-left: 0px;
+    padding-left: 70px;
   }
   .grid-contacto .zona-formulario {
     padding-left: 80px;
@@ -578,6 +596,10 @@ footer .barra-rrss .redes-sociales {
   }
   .grid-contacto .zona-formulario .campo {
     width: 80%;
+  }
+  .grid-contacto .zona-formulario .enviar {
+    margin: 0px;
+    margin-top: 20px;
   }
   .grid-contacto .zona-mapa {
     padding-left: 80px;
@@ -589,32 +611,12 @@ footer .barra-rrss .redes-sociales {
 }
 @media screen and (max-width: 500px) {
   /* header */
-  .navbar-brand img {
-    padding-left: 20px;
-  }
-  .navbar-toggler {
-    margin-right: 30px;
-  }
-  .navbar-nav {
-    font-size: 20px;
-  }
   /* index */
-  body {
-    padding-left: 0px;
-  }
-  body .imagen-principal img {
-    padding-top: 20px;
-    padding-left: 0px;
-  }
-  body .imagen-principal img .slide img {
+  .imagen-principal img .slide img {
     height: 30vh;
   }
-  body .imagen-principal h1 {
-    padding-top: 80px;
-    padding-left: 0px;
-  }
-  body .imagen-principal p {
-    padding-left: 0px;
+  .imagen-principal h1 {
+    padding-top: 100px;
   }
   /*footer*/
   .info1 p {
@@ -622,52 +624,23 @@ footer .barra-rrss .redes-sociales {
     padding-right: 10px;
   }
   /*pagina nosotros*/
-  .box1 h1 {
-    margin-left: 0px;
-    padding-left: 0px;
-  }
   /*pagina servicios*/
-  .titulo-servicios h1 {
-    margin-left: -70px;
-  }
   .contenedores {
     padding-left: 30px;
     padding-right: 30px;
   }
   /*pagina proyectos*/
-  .titulo-proyectos h1 {
-    margin-left: -60px;
-    padding-left: 0px;
-  }
-  .row {
-    gap: 30px;
-  }
-  .row img {
-    padding-left: 10px;
-  }
   /*pagina contacto*/
-  .grid-contacto {
-    margin: 0px;
-    padding: 0px;
-  }
-  .grid-contacto .zona-titulo h1 {
-    margin-left: 0px;
-    padding-left: 70px;
-  }
-  .grid-contacto .zona-formulario {
+  .zona-formulario {
     padding-left: 45px;
   }
-  .grid-contacto .zona-formulario .campo {
+  .zona-formulario .campo {
     width: 85%;
   }
-  .grid-contacto .zona-formulario .enviar {
-    margin: 0px;
-    margin-top: 20px;
-  }
-  .grid-contacto .zona-mapa {
+  .zona-mapa {
     padding-left: 30px;
   }
-  .grid-contacto .zona-mapa iframe {
+  .zona-mapa iframe {
     width: 85%;
   }
 }/*# sourceMappingURL=estilo.css.map */

@@ -1,32 +1,38 @@
 @media screen and (max-width: 768px) {
 
     /* header */
-    .navbar-brand {
-        img {
-            margin-left: -20px;
-            width: 100%;
-        }
+    .navbar-brand img {
+        margin-right: 0px;
+        padding-left: 0px;
     }
 
-    .collapse {
-        margin-right: -20px;
-
-        .navbar-nav {
-            align-items: flex-end;
-            margin-right: 0px;
-        }
+    .navbar-toggler img {
+        padding: 0px;
+        margin-right: 140px;
     }
 
+    .navbar-nav {
+        font-size: 20px;
+    }
 
 
     /* index */
-    .imagen-principal {
+    .imagen-principal img {
+        padding-left: 0px;
 
         .slide img {
             height: 60vh;
         }
     }
 
+    .imagen-principal h1 {
+        padding-top: 80px;
+        padding-left: 0px;
+    }
+
+    .imagen-principal p {
+        padding-left: 0px;
+    }
 
 
     /* footer */
@@ -97,8 +103,7 @@
 
             &.box1 {
                 h1 {
-                    margin-left: -20px;
-                    padding-bottom: 0px;
+                    margin-left: -60px;
                     font-size: 40px;
                 }
             }
@@ -126,14 +131,15 @@
             }
 
             &.box5 {
-                width: 0px;
+                max-width: 80%;
                 order: 0;
                 margin-left: 0px;
                 margin-right: 0px;
             }
         }
     }
-
+  
+    
     @keyframes lineaMovimiento {
 
         100% {
@@ -145,10 +151,9 @@
 
     /* servicios */
     .titulo-servicios {
-        padding-bottom: 0px;
-        padding-left: 40px;
-
+      
         h1 {
+            margin-left: -100px;
             font-size: 40px;
         }
     }
@@ -177,74 +182,72 @@
 
     /* proyectos */
     .titulo-proyectos {
-        padding-left: 60px;
-
+     
         h1 {
+            margin-left: -100px;
             font-size: 40px;
         }
     }
 
-    .container {
-        flex-direction: column;
+    .row {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-content: center;
 
-        .contenedor {
-            flex: 1;
-            display: flex;
+        .col-md-4 {
             flex-direction: column;
-            align-items: center;
-
-            .row {
-                gap: 30px;
-
-                img {
-                    padding-left: 10px;
-                }
-            }
+            width: 95%;
+            margin-left: 20px;
         }
     }
 
 
-        /* contacto */
-        .grid-contacto {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
+    /* contacto */
+    .grid-contacto {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+
+        .zona {
             margin: 0px;
             padding: 0px;
+        }
 
-            .zona {
+        .zona-titulo {
+
+            h1 {
+                padding-bottom: 100%;
+                font-size: 40px;
+                margin-left: 0px;
+                padding-left: 70px;
+            }
+        }
+
+        .zona-formulario {
+            padding-left: 80px;
+            padding-top: 40px;
+            padding-bottom: 90px;
+
+            .campo {
+                width: 80%;
+            }
+
+            .enviar {
                 margin: 0px;
-                padding: 0px;
+                margin-top: 20px;
             }
+        }
 
-            .zona-titulo {
+        .zona-mapa {
+            padding-left: 80px;
+            margin: 0px;
 
-                h1 {
-                    padding-bottom: 100%;
-                    font-size: 40px;
-                    margin-left: 150px;
-                    padding-left: 0px;
-                    margin-right: 200px;
-                }
-            }
-
-            .zona-formulario {
-                padding-left: 80px;
-                padding-top: 40px;
-                padding-bottom: 90px;
-
-                .campo {
-                    width: 80%;
-                }
-            }
-
-            .zona-mapa {
-                padding-left: 80px;
-                margin: 0px;
-
-                iframe {
-                    width: 83%;
-                }
+            iframe {
+                width: 83%;
             }
         }
     }
+}

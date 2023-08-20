@@ -1,43 +1,18 @@
 @media screen and (max-width: 500px) {
 
     /* header */
-    .navbar-brand {
-        img {
-            padding-left: 20px;
-        }
-    }
-
-    .navbar-toggler {
-        margin-right: 30px;
-    }
-
-    .navbar-nav {
-        font-size: 20px;
-    }
 
 
     /* index */
+    .imagen-principal img {
 
-    body {
-        padding-left: 0px;
-
-        .imagen-principal img {
-            padding-top: 20px;
-            padding-left: 0px;
-
-            .slide img {
-                height: 30vh;
-            }
+        .slide img {
+            height: 30vh;
         }
+    }
 
-        .imagen-principal h1 {
-            padding-top: 80px;
-            padding-left: 0px;
-        }
-
-        .imagen-principal p {
-            padding-left: 0px;
-        }
+    .imagen-principal h1 {
+        padding-top: 100px;
     }
 
 
@@ -51,75 +26,33 @@
 
 
     /*pagina nosotros*/
-    .box1 {
-        h1 {
-            margin-left: 0px;
-            padding-left: 0px;
-        }
-    }
-
-    .box5 {
-        max-width: 80%;
-    }
+   
 
 
     /*pagina servicios*/
-    .titulo-servicios h1 {
-        margin-left: -70px;
-    }
-
     .contenedores {
         padding-left: 30px;
         padding-right: 30px;
     }
-    
+
 
     /*pagina proyectos*/
-    .titulo-proyectos h1 {
-        margin-left: -60px;
-        padding-left: 0px;
-    }
-
-    .row {
-        gap: 30px;
-
-        img {
-            padding-left: 10px;
-        }
-    }
 
 
     /*pagina contacto*/
-    .grid-contacto {
-        margin: 0px;
-        padding: 0px;
+    .zona-formulario {
+        padding-left: 45px;
 
-        .zona-titulo {
-            h1 {
-                margin-left: 0px;
-                padding-left: 70px;
-            }
+        .campo {
+            width: 85%;
         }
+    }
 
-        .zona-formulario {
-            padding-left: 45px;
+    .zona-mapa {
+        padding-left: 30px;
 
-            .campo {
-                width: 85%;
-            }
-
-            .enviar {
-                margin: 0px;
-                margin-top: 20px;
-            }
-        }
-
-        .zona-mapa {
-            padding-left: 30px;
-
-            iframe {
-                width: 85%;
-            }
+        iframe {
+            width: 85%;
         }
     }
 }

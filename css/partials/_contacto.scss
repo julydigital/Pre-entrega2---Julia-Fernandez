@@ -46,7 +46,7 @@
         grid-area: zona-formulario;
         padding: 140px 100px;
         border: none;
-
+       
         .campo {
             font-family: $fontOxygen;
             font-size: 15px;
@@ -58,6 +58,7 @@
             outline: none;
             padding-bottom: 10px;
             padding-top: 50px;
+            background-color: $bodyColor;
         }
 
         .enviar {
@@ -68,6 +69,7 @@
             border: 1px solid hsl(0, 1%, 46%);
             padding: 10px 10px 10px 10px;
             margin: 30px 0px 0px 400px;
+            background-color: $bodyColor;
             cursor: pointer;
         }
     }

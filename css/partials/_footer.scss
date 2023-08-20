@@ -1,61 +1,61 @@
-footer {
-    padding-top: 50px;
-    margin-left: 98px;
-    margin-right: 98px;
+    footer {
+        padding-top: 50px;
+        margin-left: 98px;
+        margin-right: 98px;
 
-    .logo1 {
-        width: 200px;
-        padding-top: 20px;
-        padding-left: 30px;
-    }
-
-    .contenedor-footer {
-        display: flex;
-        padding-top: 30px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 40px;
-        align-items: flex-end;
-
-        .informacion {
-            flex-grow: 1;
-            flex-shrink: 1;
-            flex-basis: auto;
-
-            p {
-                font-family: $fontOxygen;
-                font-size: 13px;
-                margin-bottom: 0px;
-                padding-bottom: 4px;
-            }
-
-            &.info1 {
-                text-align: left;
-            }
-        
-            &.info2 {
-                text-align: end;
-            }
+        .logo1 {
+            width: 200px;
+            padding-top: 20px;
+            padding-left: 30px;
         }
-    }
-   
-    .linea-footer {
-        border-top: $lineaHorizontal;
-        width: 97%;
-        margin-left: 20px;
-    }
 
-    .barra-rrss {
-        height: 70px;
-        justify-content: end;
-        display: flex;
-        gap: 20px;
-        padding-right: 30px;
-
-        .redes-sociales {
+        .contenedor-footer {
             display: flex;
-            padding-bottom: 30px;
-            width: 40px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 40px;
+            align-items: flex-end;
+
+            .informacion {
+                flex-grow: 1;
+                flex-shrink: 1;
+                flex-basis: auto;
+
+                p {
+                    font-family: $fontOxygen;
+                    font-size: 13px;
+                    margin-bottom: 0px;
+                    padding-bottom: 4px;
+                }
+
+                &.info1 {
+                    text-align: left;
+                }
+
+                &.info2 {
+                    text-align: end;
+                }
+            }
+        }
+
+        .linea-footer {
+            border-top: $lineaHorizontal;
+            width: 97%;
+            margin-left: 20px;
+        }
+
+        .barra-rrss {
+            height: 70px;
+            justify-content: end;
+            display: flex;
+            gap: 20px;
+            padding-right: 30px;
+
+            .redes-sociales {
+                display: flex;
+                padding-bottom: 30px;
+                width: 40px;
+            }
         }
     }
-}
