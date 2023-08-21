@@ -425,15 +425,18 @@ footer .barra-rrss .redes-sociales {
 
 @media screen and (max-width: 768px) {
   /* header */
-  .navbar-brand img {
+  .container-fluid {
+    padding-right: 40px;
+  }
+  .container-fluid .navbar-brand img {
     margin-right: 0px;
     padding-left: 0px;
   }
-  .navbar-toggler img {
+  .container-fluid .navbar-toggler img {
     padding: 0px;
-    margin-right: 140px;
+    margin-right: 40px;
   }
-  .navbar-nav {
+  .container-fluid .navbar-nav {
     font-size: 20px;
   }
   /* index */
@@ -444,8 +447,8 @@ footer .barra-rrss .redes-sociales {
     height: 60vh;
   }
   .imagen-principal h1 {
-    padding-top: 80px;
-    padding-left: 0px;
+    padding: 0px;
+    margin-top: 20px;
   }
   .imagen-principal p {
     padding-left: 0px;
@@ -616,7 +619,8 @@ footer .barra-rrss .redes-sociales {
     height: 30vh;
   }
   .imagen-principal h1 {
-    padding-top: 100px;
+    padding: 0px;
+    margin-top: 20px;
   }
   /*footer*/
   .info1 p {

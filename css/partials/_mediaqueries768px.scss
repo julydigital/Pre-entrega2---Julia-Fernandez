@@ -1,20 +1,23 @@
 @media screen and (max-width: 768px) {
 
     /* header */
-    .navbar-brand img {
-        margin-right: 0px;
-        padding-left: 0px;
-    }
+    .container-fluid {
+        padding-right: 40px;
 
-    .navbar-toggler img {
-        padding: 0px;
-        margin-right: 140px;
-    }
+        .navbar-brand img {
+            margin-right: 0px;
+            padding-left: 0px;
+        }
 
-    .navbar-nav {
-        font-size: 20px;
-    }
+        .navbar-toggler img {
+            padding: 0px;
+            margin-right: 40px;
+        }
 
+        .navbar-nav {
+            font-size: 20px;
+        }
+    }
 
     /* index */
     .imagen-principal img {
@@ -26,8 +29,8 @@
     }
 
     .imagen-principal h1 {
-        padding-top: 80px;
-        padding-left: 0px;
+        padding: 0px;
+        margin-top: 20px;
     }
 
     .imagen-principal p {
@@ -138,8 +141,8 @@
             }
         }
     }
-  
-    
+
+
     @keyframes lineaMovimiento {
 
         100% {
@@ -151,7 +154,7 @@
 
     /* servicios */
     .titulo-servicios {
-      
+
         h1 {
             margin-left: -100px;
             font-size: 40px;
@@ -182,7 +185,7 @@
 
     /* proyectos */
     .titulo-proyectos {
-     
+
         h1 {
             margin-left: -100px;
             font-size: 40px;
